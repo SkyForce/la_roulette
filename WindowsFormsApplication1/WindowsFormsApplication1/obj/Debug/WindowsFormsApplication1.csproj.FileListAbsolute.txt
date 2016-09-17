@@ -1,0 +1,67 @@
+C:\Users\r-z-v_000\Documents\New folder\Autumn\242\r_zakharov\task5\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\r-z-v_000\Documents\New folder\Autumn\242\r_zakharov\task5\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\r-z-v_000\Documents\New folder\Autumn\242\r_zakharov\task5\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Roulette.exe.config
+C:\Users\r-z-v_000\Documents\New folder\Autumn\242\r_zakharov\task5\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Roulette.exe
+C:\Users\r-z-v_000\Documents\New folder\Autumn\242\r_zakharov\task5\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Roulette.pdb
+C:\Users\r-z-v_000\Documents\New folder\Autumn\242\r_zakharov\task5\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Roulette.Form1.resources
+C:\Users\r-z-v_000\Documents\New folder\Autumn\242\r_zakharov\task5\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\roulette.Properties.Resources.resources
+C:\Users\r-z-v_000\Documents\New folder\Autumn\242\r_zakharov\task5\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Roulette.exe
+C:\Users\r-z-v_000\Documents\New folder\Autumn\242\r_zakharov\task5\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Roulette.pdb
+C:\Users\r-z-v_000\Documents\New folder\Autumn\242\r_zakharov\task5\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\log4net.dll
+C:\Users\r-z-v_000\Documents\New folder\Autumn\242\r_zakharov\task5\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\SuperSocket.Common.dll
+C:\Users\r-z-v_000\Documents\New folder\Autumn\242\r_zakharov\task5\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\SuperSocket.Facility.dll
+C:\Users\r-z-v_000\Documents\New folder\Autumn\242\r_zakharov\task5\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\SuperSocket.SocketBase.dll
+C:\Users\r-z-v_000\Documents\New folder\Autumn\242\r_zakharov\task5\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\SuperSocket.SocketEngine.dll
+C:\Users\r-z-v_000\Documents\New folder\Autumn\242\r_zakharov\task5\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\log4net.xml
+C:\Users\r-z-v_000\Documents\New folder\Autumn\242\r_zakharov\task5\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\r-z-v_000\Documents\New folder\Autumn\242\r_zakharov\task5\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\SuperWebSocket.dll
+C:\Users\r-z-v_000\Documents\New folder\Autumn\242\r_zakharov\task5\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\r-z-v_000\Documents\New folder\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Roulette.exe.config
+C:\Users\r-z-v_000\Documents\New folder\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Roulette.exe
+C:\Users\r-z-v_000\Documents\New folder\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Roulette.pdb
+C:\Users\r-z-v_000\Documents\New folder\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Roulette.exe
+C:\Users\r-z-v_000\Documents\New folder\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Roulette.pdb
+C:\Users\r-z-v_000\Documents\New folder\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\log4net.dll
+C:\Users\r-z-v_000\Documents\New folder\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\r-z-v_000\Documents\New folder\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\SuperSocket.Common.dll
+C:\Users\r-z-v_000\Documents\New folder\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\SuperSocket.Facility.dll
+C:\Users\r-z-v_000\Documents\New folder\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\SuperSocket.SocketBase.dll
+C:\Users\r-z-v_000\Documents\New folder\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\SuperSocket.SocketEngine.dll
+C:\Users\r-z-v_000\Documents\New folder\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\SuperWebSocket.dll
+C:\Users\r-z-v_000\Documents\New folder\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\log4net.xml
+C:\Users\r-z-v_000\Documents\New folder\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\r-z-v_000\Documents\New folder\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\r-z-v_000\Documents\New folder\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Roulette.Form1.resources
+C:\Users\r-z-v_000\Documents\New folder\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\roulette.Properties.Resources.resources
+C:\Users\r-z-v_000\Documents\New folder\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+D:\univer\spsu-mm-programming-sartasov\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Roulette.exe.config
+D:\univer\spsu-mm-programming-sartasov\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Roulette.exe
+D:\univer\spsu-mm-programming-sartasov\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Roulette.pdb
+D:\univer\spsu-mm-programming-sartasov\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Roulette.exe
+D:\univer\spsu-mm-programming-sartasov\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Roulette.pdb
+D:\univer\spsu-mm-programming-sartasov\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\log4net.dll
+D:\univer\spsu-mm-programming-sartasov\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Newtonsoft.Json.dll
+D:\univer\spsu-mm-programming-sartasov\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\SuperSocket.Common.dll
+D:\univer\spsu-mm-programming-sartasov\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\SuperSocket.Facility.dll
+D:\univer\spsu-mm-programming-sartasov\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\SuperSocket.SocketBase.dll
+D:\univer\spsu-mm-programming-sartasov\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\SuperSocket.SocketEngine.dll
+D:\univer\spsu-mm-programming-sartasov\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\SuperWebSocket.dll
+D:\univer\spsu-mm-programming-sartasov\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\log4net.xml
+D:\univer\spsu-mm-programming-sartasov\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Newtonsoft.Json.xml
+D:\univer\spsu-mm-programming-sartasov\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+D:\univer\spsu-mm-programming-sartasov\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Roulette.Form1.resources
+D:\univer\spsu-mm-programming-sartasov\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\roulette.Properties.Resources.resources
+D:\univer\spsu-mm-programming-sartasov\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+D:\univer\spsu-mm-programming-sartasov\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Simplify.DI.dll
+D:\univer\spsu-mm-programming-sartasov\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Simplify.Templates.dll
+D:\univer\spsu-mm-programming-sartasov\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\System.IO.Abstractions.dll
+D:\univer\spsu-mm-programming-sartasov\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Simplify.DI.xml
+D:\univer\spsu-mm-programming-sartasov\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Simplify.Templates.xml
+D:\univer\spsu-mm-programming-sartasov\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\EntityFramework.dll
+D:\univer\spsu-mm-programming-sartasov\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\EntityFramework.SqlServer.dll
+D:\univer\spsu-mm-programming-sartasov\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\System.Data.SQLite.dll
+D:\univer\spsu-mm-programming-sartasov\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\System.Data.SQLite.EF6.dll
+D:\univer\spsu-mm-programming-sartasov\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\System.Data.SQLite.Linq.dll
+D:\univer\spsu-mm-programming-sartasov\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\EntityFramework.xml
+D:\univer\spsu-mm-programming-sartasov\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\EntityFramework.SqlServer.xml
+D:\univer\spsu-mm-programming-sartasov\Spring\242\la_roulette\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\System.Data.SQLite.xml

@@ -1,0 +1,2208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="93b8d613-b0fd-4db4-bd3b-81a64209b70a"
+  name="Roulette"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="a4c22a18-25eb-4a6a-894a-69abe711b878"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DRoulette"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="2b2bfedf-1b17-4f02-8f2d-5b03e4e56e2d"
+        name="Form1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="c14331fa-cf5f-4f70-b3d6-d49512e88a12"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="7b4fb4fe-ad2e-4104-9051-f894516ac2a9"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="96ea7aff-45c7-4a5b-a2a6-0de712ebb9bf">
+                <propertyInstance
+                  Id="d5a53767-45b9-46e9-9aa2-e38359ebbb49"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b1b0b992-fdbf-46e9-8cf9-d37769b5a40c">
+                <propertyInstance
+                  Id="ecb94d7c-bcb9-428c-9452-2e35a0c7de2f"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c3344156-42e9-48f8-8e29-e0e63ddca863">
+                <propertyInstance
+                  Id="9d9b385f-6f94-40d5-b7bd-8ba4532dfcc5"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="48c161a8-80c6-4175-a112-3cf4b0ec2824">
+                <propertyInstance
+                  Id="672ca11a-415f-4727-a94c-25a2e6f692d2"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="35f36d44-30c5-4e25-8ff3-f3ce1bac5cb3">
+                <propertyInstance
+                  Id="9ef1965f-a55c-45ac-b415-4220e6b1f1bc"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="575eceef-106e-451e-bed6-f760d0da2980"
+            isSubstitutable="false">
+            <classMoniker
+              Id="d54e6f66-53ee-4ea2-b66e-4343d1a05d52"
+              LastKnownName="Form"
+              LastKnownLocation="Package7_0226.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="c5ee3b46-b214-4e49-8328-d9462d097dce"
+            name="WebSocketServer"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="0f0bbeee-650b-4a96-b147-05204a83ab3f"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3DWebSocketServer"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b62079b7-2a5b-4454-ab93-b033da53b302"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="71e86748-095c-49ad-9f7c-c885e6e557ee">
+                    <propertyInstance
+                      Id="25f017cd-2ac1-4ec1-ae6f-3522d8b5c551"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3e33db80-a365-490c-a87e-05a1ee123baa">
+                    <propertyInstance
+                      Id="090d062f-5617-4ebd-b359-795aa3b1e0a4"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b51ea0e8-a085-460b-a3a9-835f6c68a60f">
+                    <propertyInstance
+                      Id="877131cf-7263-4def-a0b0-6132c28cb5de"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1fcd651e-fe1b-4f2b-93af-a2c92e8b2d2b">
+                    <propertyInstance
+                      Id="3ffd9b07-a9f9-4b3e-8531-6fb288e6b101"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="437e4b9c-6dc1-45d9-8164-2a1acca1e4f9">
+                    <propertyInstance
+                      Id="ff5e5a10-7fa5-4c0c-9975-a044a5837963"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="f656261c-4307-4f09-8512-49b838d964be"
+                LastKnownName="WebSocketServer"
+                LastKnownLocation="Package1_0225.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="936b689d-982a-4643-8f10-6bc224fb6f3a"
+            name="WebSocketSessions"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="0bfa17b1-afd8-4cf0-a3c5-61999e0db967"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3DWebSocketSessions"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2c880659-645c-4cb9-85f4-0f9b831ad7e8"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="262886bd-b903-433d-8f37-96a9784a5f2c">
+                    <propertyInstance
+                      Id="cd977675-db95-4f34-b6bd-775388aacefb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e19a0b37-1fae-4d01-8e5b-8d42392e4e09">
+                    <propertyInstance
+                      Id="43ed023d-141f-44fd-9225-8359e3144538"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d97d19c2-f8a4-47bd-908a-398f5c9289f1">
+                    <propertyInstance
+                      Id="e221ef1a-af96-464f-9c02-d03d4752d07f"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e63b38db-4a43-4fdf-b464-4344e7be6072">
+                    <propertyInstance
+                      Id="a2869351-7ad8-4dc4-a8e7-f8faf8199535"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="03afd76c-1f92-407c-9545-dcd54eeef133">
+                    <propertyInstance
+                      Id="dd923789-dca5-42c0-8609-ddcd3a84e3c6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="5cd075c1-6f77-4731-b87f-af5bfe22e80e"
+                LastKnownName="List&lt;WebSocketSession‎&gt;"
+                LastKnownLocation="Package4_0226.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="97235d50-710c-41f4-9173-c0a5493a7930"
+            name="players"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="0d4cbea2-65b2-4f27-8593-718e3dfa68ae"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3Dplayers"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="44f11368-6885-4848-bd5d-dcc580c6cce9"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="443c51a7-6c4e-4bd3-b086-1aac3250e73a">
+                    <propertyInstance
+                      Id="e57cf32b-a4af-4207-8c8b-3c64a0f4cdd3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="86151ce0-d296-40fd-a50e-c8593ba4c2a8">
+                    <propertyInstance
+                      Id="0c03a1ef-2af6-4b76-9845-bc06c1a41eeb"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11f5aff2-26a5-47f3-a669-066735212dee">
+                    <propertyInstance
+                      Id="23a79bd7-0653-4675-a438-56edf2700c11"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a33c7b99-5506-4fea-8829-344c4710636b">
+                    <propertyInstance
+                      Id="6bf1c553-9d00-4562-81a4-fb6f733ec04f"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3b23336f-9ef4-4b4b-b424-598a94ac7168">
+                    <propertyInstance
+                      Id="477882f0-4769-4c6d-b128-b3773ea8cc5e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="69bd7f67-f51b-487e-9fae-d41cb312151f"
+                LastKnownName="Dictionary&lt;WebSocketSession‎, Player‎&gt;"
+                LastKnownLocation="Package4_0226.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="7a97f3b0-bfd7-40c0-b807-95a97f96f4a1"
+            name="database"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="f6b53b20-f415-4c17-93fc-ee07537abe67"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3Ddatabase"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="017cd8ad-ffcc-481e-b537-6700435d9dc3"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="573c8b52-5cf7-4691-9db8-41a7913bbd5f">
+                    <propertyInstance
+                      Id="da6a3962-83ab-4e02-928a-b34648393d55"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="09040b03-32f6-40ce-8f29-3acc10002fea">
+                    <propertyInstance
+                      Id="d748bf5f-c591-4267-afe2-53525d8d5f57"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="12e9978b-c876-4d85-b5ac-031c272ff9e3">
+                    <propertyInstance
+                      Id="296a669d-5d54-4aff-9c8e-c08fd3c94a04"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d4b73cac-ee1b-4c95-b506-d716291f28e5">
+                    <propertyInstance
+                      Id="bc272650-e4e8-472a-a185-6108621a6c51"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e0d03576-5ff7-4fdc-ae3e-eca099a64636">
+                    <propertyInstance
+                      Id="c66ce837-5100-44d5-8be9-b9560c514b93"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="23d04c31-3294-4eb5-8840-2d4926937a41"
+                LastKnownName="Database"
+                LastKnownLocation="Package_0225.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="300a4645-791a-4677-adf3-2cf4b7b26780"
+            name="components"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="026d3bb5-fa5f-422d-b0b0-e23881200747"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3Dcomponents"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="460fd2e0-1937-44c9-8229-820520828a00"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dd4d598b-e3f2-49df-b700-8c6f3d02fabf">
+                    <propertyInstance
+                      Id="f266d94c-ba30-47f0-84e2-06057330c194"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6d679cb6-3c37-41e8-930d-7cdc87f4de77">
+                    <propertyInstance
+                      Id="82f9ba10-69e1-4975-872f-db250556ec46"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7d8fd7d8-c97a-4371-8c0b-c7a697f17c34">
+                    <propertyInstance
+                      Id="f5290024-99f4-4b69-8401-0380e7014f29"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a542331d-09bb-4bcc-bc0d-f85ab77bbb14">
+                    <propertyInstance
+                      Id="2f4f08ba-0d30-4eb7-a161-8a1b384ea42e"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6844dd7d-5107-4296-a22c-88dc2689c2f4">
+                    <propertyInstance
+                      Id="d16364d2-7382-4f19-837c-e433aad9deb0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="9120fece-72d6-4995-9e80-2c174e050373"
+                LastKnownName="IContainer"
+                LastKnownLocation="Package5_0226.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="41b1db0b-9250-4677-9d8c-b90c9f908d6a"
+            name="buttonRun"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="d11527a9-ab42-435a-87ac-663cafbd8f74"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3DbuttonRun"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="60899e21-6866-4c1a-8cd4-e5257e7da69f"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4c7cdb81-e3c4-4166-9605-0b5984530990">
+                    <propertyInstance
+                      Id="c8753681-e07c-4cc0-9a67-28ab34ac1795"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4d815ed7-7d5f-4c83-a20f-575fa1cfb91d">
+                    <propertyInstance
+                      Id="c03c9584-f066-473d-a130-087869c454a0"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d9e9a6cc-891a-4a84-a78e-e3db68490ac8">
+                    <propertyInstance
+                      Id="e0b1874c-91e3-494c-8690-ef960008d21a"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bea3280b-72c5-4b10-ac3b-89d4a614e84f">
+                    <propertyInstance
+                      Id="e1e32ffe-d724-4ae4-ab84-d303f617036a"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="303eb455-5c31-451f-b54c-6daedd711576">
+                    <propertyInstance
+                      Id="ceed28e9-3031-4637-810f-7801726bd5c7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="ae864f88-4c86-4f11-98a8-24ff8f6e5b71"
+                LastKnownName="Button"
+                LastKnownLocation="Package7_0226.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="8f2ba7e0-6540-4620-8496-83ae4760e398"
+            name="buttonStop"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="06b47f07-c0ff-4ba6-815f-3a7aaa552cc4"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3DbuttonStop"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="819976a6-48e0-44fa-9225-870caa3f1209"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="058761c8-a9af-49d0-98c1-72f2bbe6dc8b">
+                    <propertyInstance
+                      Id="09404a72-7912-49f8-bba9-490b3512a5a2"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8ffb0f9f-9e21-4eee-b8f0-d3acaea42055">
+                    <propertyInstance
+                      Id="0d5b3236-994e-4c9d-845c-d0eccd887a54"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6b8bb272-d874-4cd9-8ab9-13bc4494b29b">
+                    <propertyInstance
+                      Id="1f271420-d234-4aae-8850-10b2f50db693"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="42f6b258-6554-4901-8fd3-f2709158182c">
+                    <propertyInstance
+                      Id="c83fb686-fd2b-4447-83d8-c2740a84304e"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fa8fda13-1d00-4991-9554-5fbd79094683">
+                    <propertyInstance
+                      Id="3b04b47e-d8e0-4e28-905a-b475da7a3542"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="ae864f88-4c86-4f11-98a8-24ff8f6e5b71"
+                LastKnownName="Button"
+                LastKnownLocation="Package7_0226.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="cb724a66-b2e0-4e87-9d5b-21f787723f22"
+            name="buttonBackup"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="11e582ca-e511-4d9c-8e2f-879349a68fcc"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3DbuttonBackup"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f3129232-a13b-4c48-8e81-66f6a7d3b42b"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="63d43433-f4f0-4dc5-83cb-dfb586b3ca83">
+                    <propertyInstance
+                      Id="23c33425-3d81-437f-9476-ad4af7e5a571"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1b67be18-2978-4441-afb3-1536bbf8af05">
+                    <propertyInstance
+                      Id="1356890e-ecea-4db7-a952-ea80a248a525"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="10cf0cde-3408-434e-88da-72caaf61b17c">
+                    <propertyInstance
+                      Id="90c07a35-9e5c-4f03-b333-2ea42b464bab"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="46b42ee5-5358-46c7-9367-f4c1dd2de17f">
+                    <propertyInstance
+                      Id="34c1bdd0-f0ec-43d2-871d-ac327cc0653b"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="22975424-b034-4f48-8bc9-72866b3a1ad3">
+                    <propertyInstance
+                      Id="dc5c4aa9-627b-4821-bd7f-8b55657bf258"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="ae864f88-4c86-4f11-98a8-24ff8f6e5b71"
+                LastKnownName="Button"
+                LastKnownLocation="Package7_0226.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="506ebe13-2e2c-47f8-a307-c830b0401ff7"
+            name="buttonRestore"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="97406226-0966-4d34-88d3-b3057655255c"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3DbuttonRestore"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fe6aa384-d038-437c-ab52-45892a0fbde6"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bcbc47b9-27d1-4efa-bd0a-970598f8c3e5">
+                    <propertyInstance
+                      Id="2062af7c-e57f-4ec4-bc10-5ed9b8467304"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2c0f5c56-78f8-4084-ac48-4fa71634e0f4">
+                    <propertyInstance
+                      Id="4776ff1d-525b-43af-92df-4c812b69a6ca"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f0cfa26f-5cd2-44a2-97ea-bf0ac58af4f2">
+                    <propertyInstance
+                      Id="ae9e7fc7-f423-47c9-a6ca-038119e436f7"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="07eb3807-1b54-4e8e-b59f-6c75be86b23d">
+                    <propertyInstance
+                      Id="96d80d5e-6dc0-4802-9142-40f6551e4aa5"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="08a12dcf-3e56-4ac2-97b8-4740b9465c3c">
+                    <propertyInstance
+                      Id="db26f079-b921-433c-8235-08bee570f92e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="ae864f88-4c86-4f11-98a8-24ff8f6e5b71"
+                LastKnownName="Button"
+                LastKnownLocation="Package7_0226.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="9fbbfdc6-1141-4aec-8976-29e30148c30e"
+            name="richTextBox"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="ab8089b2-8b0e-4e44-becc-24aa3c83bd68"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3DrichTextBox"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0f5c28db-0460-4430-b545-1d32662c5f69"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ea8848ad-8ca0-4e85-90c9-77c1e89ef754">
+                    <propertyInstance
+                      Id="21541e98-89ce-4166-8e0b-18e7cfcf89fb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b6ce3503-6481-4ada-a29e-ceb5f45f7a45">
+                    <propertyInstance
+                      Id="42b77f15-8fa3-4674-bc0f-376873955605"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce5bdb6a-a0a2-491d-a6bc-e64ec1a0977e">
+                    <propertyInstance
+                      Id="faf2b1fe-dc81-4af6-affe-a628e0d9e2da"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e6a9795a-c63a-463e-80ac-436d41a5782d">
+                    <propertyInstance
+                      Id="65f6aa49-2cae-4f8f-bbf9-dd8edc6029d5"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="874b4adc-01f9-4c1e-a7a9-bf3a33bbd84c">
+                    <propertyInstance
+                      Id="e77d0feb-20d8-45f6-8ef0-cb40ca8ff0a4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="1f01cb7d-df94-4f90-97cb-b9dce6a0936e"
+                LastKnownName="RichTextBox"
+                LastKnownLocation="Package7_0226.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="d38db187-a7b1-4d47-9ab1-eb93eee1749e"
+            name="listBox1"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="ce91d1ef-f6e2-4420-851a-433826e6f3fe"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3DlistBox1"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0048948b-41c8-43b7-bc3e-3705c864edeb"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f05f1f43-f754-4772-9185-61acdaaf0ad9">
+                    <propertyInstance
+                      Id="389e8470-6190-4d7b-a826-b23c5eb8b15b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ac1b2c28-199c-465b-8a04-6750ccce8d4f">
+                    <propertyInstance
+                      Id="0c5c4b2b-97d5-4a5e-972f-510083bd0dbe"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ad898f40-dc1d-4135-8784-222084e5e2dc">
+                    <propertyInstance
+                      Id="0a0f9646-2302-4386-aba4-7ea6781d5ee2"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2f8629b7-7c67-4af3-8ab0-a299c8d4265a">
+                    <propertyInstance
+                      Id="32987fbb-dc9a-4b8d-907b-285319b2370c"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="490c8150-a92b-4e8b-ad97-0353256bf0e6">
+                    <propertyInstance
+                      Id="d51a2b38-da51-4840-bb91-41e86723570e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="e9d40cac-7ee0-4d72-9b74-332b8d8f494d"
+                LastKnownName="ListBox"
+                LastKnownLocation="Package7_0226.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="9879c183-20d6-4261-95ad-70af04a19e95"
+            name="trackBar1"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="fe454737-e63c-4d47-aee5-33a0941c2478"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3DtrackBar1"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e8a47af2-538c-4427-a463-d7118067a8a0"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="893f50e5-aab2-4778-87a4-cfdb8f53aa0e">
+                    <propertyInstance
+                      Id="636f3bfc-1c36-4715-a54c-2789f3bccd6c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="95597ebc-fffc-499f-b86b-40cd95fdb40c">
+                    <propertyInstance
+                      Id="ce22b0ec-4e71-43bf-a60a-ab0d0fdaf0b3"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0600214f-13e6-4044-be9a-8a90c652e831">
+                    <propertyInstance
+                      Id="793505a7-8049-4ea7-8970-5aaff75214d8"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a660ce84-4353-4463-ba1d-809b57f2adca">
+                    <propertyInstance
+                      Id="6c49733f-f978-4c5d-9917-cd3d0581725f"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2ec10d7c-7109-477b-a0db-f3db28cd09f8">
+                    <propertyInstance
+                      Id="a6e1312a-f06e-4503-b01c-125bf1dba39f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="c7c813d7-e7bc-4d7c-b9b4-c3843583977d"
+                LastKnownName="TrackBar"
+                LastKnownLocation="Package7_0226.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="d5bf477a-c988-4882-a1c1-f5be68f88145"
+            name="Form1"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="cd1cbc80-b191-44b4-bc38-1abc662e1fe3"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="caa1b760-34aa-4785-97b2-20d3d4099785"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11fd5a58-70f9-4077-b9e2-ee5f13cf199c">
+                    <propertyInstance
+                      Id="2b3963bf-79e9-440d-897a-4ad7a099f53b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3cab706b-a970-45b5-9a31-e56d87b11fe9">
+                    <propertyInstance
+                      Id="aec49bb1-2949-4277-b032-2c87b1a91c81"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2c4109b2-fd96-4482-b639-aa0c8686b096">
+                    <propertyInstance
+                      Id="a3703ca9-866d-412d-a0fe-cc4eda09bfc9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d799ed44-64d7-4dc5-8fb1-a7ca53728ede">
+                    <propertyInstance
+                      Id="2b6b01cb-d6b5-443a-82bd-e8ae413213a1"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="da6b7112-a516-4f5c-abef-87a70ca560cb">
+                    <propertyInstance
+                      Id="760c60f2-c519-46ad-b7ac-c78f78280ed8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="baac9114-e098-452f-9462-f03a7e8daff4">
+                    <propertyInstance
+                      Id="bf779997-d101-4ed4-948d-72bfe89dfe42"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="36a6b42b-dd69-4722-afe3-c513637912c6"
+            name="Form1_Load"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b815e57c-ce06-4190-a262-b7040b438b62"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3D(Name%3DForm1_Load OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="05817edd-09ca-4f7a-a7e0-04c1472c4543"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4a10447b-c40d-436a-8ee3-3c66aa51d6fc">
+                    <propertyInstance
+                      Id="8786c4f1-db27-4b75-a8f8-58a4c80c61f0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bd02cbdd-5aa1-47b7-ade7-68db5b15672f">
+                    <propertyInstance
+                      Id="0d7a0024-24f0-4b9c-a009-518eb7b7cd1e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9e1bc0ef-a02f-48c1-8e17-8570e8d346f9">
+                    <propertyInstance
+                      Id="d1fbf567-e4a6-49c0-a684-83b34ea5cb15"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a9edd8c-8205-462f-be82-fbb5d3a5a877">
+                    <propertyInstance
+                      Id="d2c9f171-de02-42da-8078-183730c18fcf"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fc540ef0-48e9-420a-a1c8-0ad37eb8eabc">
+                    <propertyInstance
+                      Id="04042492-83b2-45ab-be65-f96145f7773c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5be606a3-3866-4a97-bf46-2b39dfae8610">
+                    <propertyInstance
+                      Id="441cc74c-7250-415d-882c-320a6b58294d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3ac81572-b7ff-49b3-abfd-7f1b2ea7200d"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="dc08c1d7-f682-4e76-9b61-b62ff6d0c967"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3D(Name%3DForm1_Load OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="6e2aaa3e-309c-4669-87ef-143af42de8a6"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package2_0225.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ecdc5948-2e98-4184-b5b7-8e11ca0a3091"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="23abda07-6ffd-4a73-a501-2d4294a06e1b"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3D(Name%3DForm1_Load OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="0f8615e4-71d2-4305-bf24-ee4050f3c00d"
+                      LastKnownName="EventArgs"
+                      LastKnownLocation="Package2_0225.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="c93d5616-398e-4e0f-8af3-21500f1223d1"
+            name="richtextbox_append"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="49edf9c7-4998-4d61-8e86-6d308f79fafa"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3D(Name%3Drichtextbox_append OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="aafa9e22-a2f0-481a-9c4f-76a0d8b17835"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2e0bd931-3891-4dea-963d-ecf13937ecc0">
+                    <propertyInstance
+                      Id="d4ead242-e161-4a51-bff0-4a7e3c8dd56f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d5001d89-1b92-4cd8-8e5a-f18bd49c9e05">
+                    <propertyInstance
+                      Id="23ccf6ef-bcb0-4338-ae02-8afc3ff9a486"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c6e2b63f-2828-4ddc-afe8-1c6d5bb41d45">
+                    <propertyInstance
+                      Id="76f0dede-a2f0-41e6-99af-21c28d864b97"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="50c1c7ac-2b1d-4df5-8416-fc67a9f451da">
+                    <propertyInstance
+                      Id="35b210f8-455b-4739-9398-0f5f157d064a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f18ac763-8007-4cf7-9294-ae626039d7c5">
+                    <propertyInstance
+                      Id="30e62f45-f921-4bb6-9447-cc960d1fe391"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9cc2457a-875b-4b2d-ac07-ec10f358b87e">
+                    <propertyInstance
+                      Id="82cbc949-6b0b-4d7a-b322-ba4de103a3e3"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b39bb6d8-9dd6-4275-8ec1-c458a067e0f9"
+                  name="msg"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="698c44a6-4d33-41d3-91fe-2b2b9502d42a"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3D(Name%3Drichtextbox_append OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dmsg"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="96e3829d-7c9d-4e27-ab86-76c1b78f52c9"
+            name="ListBoxRefresh"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="eab42c2a-ed2a-4ba4-a587-1348fd49da51"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3DListBoxRefresh"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="100eb58e-2a20-4c0b-886c-b6303a2b6ee5"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="46587805-ef8c-4182-862f-ddd1c1d3d42e">
+                    <propertyInstance
+                      Id="9827840c-6b32-423b-9cab-5e490ba93c1e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="07e465f4-fb9b-4b52-a37c-2840d28a0175">
+                    <propertyInstance
+                      Id="14dcc2be-97d6-4279-9bf7-7ae8ec2d79a4"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6b657351-88ef-471f-81c7-8c53a4ea5320">
+                    <propertyInstance
+                      Id="c174a7fe-ea2b-4d4c-8ddb-4dc1d196e320"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1519ef5c-9f85-4984-a0fc-676b70aeb1fa">
+                    <propertyInstance
+                      Id="8efb14f6-ddbf-4654-9659-e20147cd9b7a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f1485b0-2c03-4b60-ae68-f66c854ea1ac">
+                    <propertyInstance
+                      Id="6e685088-198d-4c8d-a0d5-1ccd8d5e546e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="43b31473-4abf-4bc7-ba51-38496ea015fa">
+                    <propertyInstance
+                      Id="fb7ba204-321e-4a44-a76e-f4ddd47da0e9"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="d29a24f2-b307-48f7-85bf-0bd5631f2aee"
+            name="buttonRun_Click"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="0ca87f12-65c2-4a75-9f67-06d736f994f0"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3D(Name%3DbuttonRun_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8741fd4c-c9c2-4a24-aa32-50c42ca1509a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="72c7e109-58c9-4225-9237-a30d616944cf">
+                    <propertyInstance
+                      Id="e366edad-ee75-4dca-98b3-17d7b3f5c0d9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="71965d95-ef7b-433c-86a0-3af2fbdccdc9">
+                    <propertyInstance
+                      Id="801aa210-d919-400d-83f7-25d3beb6c687"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d5fc951c-8fd2-4c2a-a4fe-174baabce689">
+                    <propertyInstance
+                      Id="1816ef98-0727-487b-b53a-57dceac19a92"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="57657e9a-ddc1-4574-8dfa-593c26e391f8">
+                    <propertyInstance
+                      Id="416537f5-bb5e-4beb-bddc-199ae3f4661e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a92174cd-5b29-4100-b7f9-83c6e91f6fdf">
+                    <propertyInstance
+                      Id="4cf22371-05bd-4f11-9140-cde238d46af9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1d8570ab-f9f6-4ca2-9fee-771baaeff274">
+                    <propertyInstance
+                      Id="1ef6f036-dbf8-47d5-a9a4-976067a62373"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e6aec7c2-a3d0-44da-83a6-982e62b75678"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="a3200042-ae9d-4efd-b2ac-4f623f4644c8"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3D(Name%3DbuttonRun_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="6e2aaa3e-309c-4669-87ef-143af42de8a6"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package2_0225.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9f5ce5e9-939b-4c90-9838-d36114fdea51"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="1a249c00-242d-4f08-a1ad-533292f61534"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3D(Name%3DbuttonRun_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="0f8615e4-71d2-4305-bf24-ee4050f3c00d"
+                      LastKnownName="EventArgs"
+                      LastKnownLocation="Package2_0225.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="a0059bbe-e845-427d-b4f5-0ac18db25c01"
+            name="buttonStop_Click"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5b87c93a-ffb7-403f-b682-329d36aa01fe"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3D(Name%3DbuttonStop_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="24e23e32-3370-4640-86ce-fc3847890a4d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f0e253df-8277-48c1-b969-a1a4f934fc8e">
+                    <propertyInstance
+                      Id="140d7cd8-900e-428c-b9cf-dc8d7c9fe4c1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b415d55b-005e-458b-bd37-84c1286d24ea">
+                    <propertyInstance
+                      Id="424decea-d080-4ccb-8e21-baaf3118578f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="99db9d70-e998-4b8e-888f-e0e90e63fdaa">
+                    <propertyInstance
+                      Id="3f0ecb5c-0f88-488c-b345-ab8b60b98577"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="127b7496-6ae1-4f75-a2ba-1a21647c21c7">
+                    <propertyInstance
+                      Id="fdabf3cf-1e18-4cf1-bd3e-2e2cb308a4fc"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="25049dae-cc3a-4515-b9f9-5e44bc0b2dd2">
+                    <propertyInstance
+                      Id="8a072b7c-071b-491c-947f-634a5f389071"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="50898f39-3fdf-4d6e-825f-5c3f02b819dd">
+                    <propertyInstance
+                      Id="37d1bd7f-b446-479b-8dbe-c3ba03121f0a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="45fa7a53-f7d4-4a56-87e5-9f969cf3f679"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="82ecb94c-ed4a-4e0c-ab03-9843a23d3f68"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3D(Name%3DbuttonStop_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="6e2aaa3e-309c-4669-87ef-143af42de8a6"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package2_0225.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a3f84273-680d-42ec-a776-cb051cf0c8f5"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ed88379c-bf2a-4b84-94f4-354eb7ad6746"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3D(Name%3DbuttonStop_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="0f8615e4-71d2-4305-bf24-ee4050f3c00d"
+                      LastKnownName="EventArgs"
+                      LastKnownLocation="Package2_0225.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="1d777d0c-3188-4282-9ea2-3a645f7fcd1b"
+            name="buttonBackup_Click"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3663e417-1bb5-4091-9d75-30b1596971c2"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3D(Name%3DbuttonBackup_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="10e85461-811f-48c9-8564-c6f24a6338e1"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="20a1cecc-79bc-438c-b511-d3f1418c6ab4">
+                    <propertyInstance
+                      Id="4569d918-a6cc-45e7-a143-457862269c1d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c1369b12-408b-4fad-a11e-9d4d59fd0ca9">
+                    <propertyInstance
+                      Id="a1ca7fea-eac1-4a09-ba40-8b30524e6dd3"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f68ff41f-573a-419e-8073-7c2bdb89a406">
+                    <propertyInstance
+                      Id="0e7c363c-0a35-4f3f-a206-b71ffc8cc4b5"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bc3db83a-a349-41ce-bf4d-55f3f28f9236">
+                    <propertyInstance
+                      Id="bcb5dedf-f551-486b-8016-c64ce30fabf3"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5e2b8a29-286b-4266-aa53-a9b00b2daf68">
+                    <propertyInstance
+                      Id="c658df38-ba36-4c70-b367-58edc8a16b63"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a87f635e-4400-4bc1-a6d7-879ece55a5cc">
+                    <propertyInstance
+                      Id="ab5b9a77-3bf7-4a5c-9c34-a31e2c9260f7"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4416064d-900f-4ae8-b51f-79c094a1bbc7"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="a9bd9a9b-b14d-457f-8802-1646a60423c7"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3D(Name%3DbuttonBackup_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="6e2aaa3e-309c-4669-87ef-143af42de8a6"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package2_0225.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0b511af0-6ad8-4d07-92e7-4a660f347eb2"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="8bd5508d-4020-44b0-9fa6-d87127e21542"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3D(Name%3DbuttonBackup_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="0f8615e4-71d2-4305-bf24-ee4050f3c00d"
+                      LastKnownName="EventArgs"
+                      LastKnownLocation="Package2_0225.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="1ad9a9b9-68d4-4ed9-b9a6-b6f29937bbe7"
+            name="buttonRestore_Click"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a77cace5-9c62-45e7-8d82-084ab72da86b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3D(Name%3DbuttonRestore_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="310438a3-6d41-47e2-9893-f2be8019fe52"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="74dc3dc3-a8d5-4bb5-94f0-048082f87e77">
+                    <propertyInstance
+                      Id="8f539679-0be7-41c9-b5ec-6ce7ff96d6ca"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d8def92e-c13c-4d79-9318-874823051ffc">
+                    <propertyInstance
+                      Id="0cc65146-0cb1-461d-9d58-87dc20f995d6"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3f19e8af-4b81-4338-b42d-ff5b08d9f646">
+                    <propertyInstance
+                      Id="99488e03-4db2-4000-97b7-3289cbf3b679"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bc014492-b494-48d6-b6e5-ec7e733b87bd">
+                    <propertyInstance
+                      Id="4de078a0-899b-4785-88b0-5dc4329cdb2a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="db643981-d241-4a17-b4ce-e4f14387a400">
+                    <propertyInstance
+                      Id="f8d0f1de-85cf-402f-a28c-fd3436674d44"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="72ed23e3-9409-45bd-89b0-bf1aef7a68c9">
+                    <propertyInstance
+                      Id="6085a236-da08-4225-b9f2-ce4e078b9010"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="dc0a374c-413d-4c69-ada3-6d3c716c275e"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="c7528e40-98f9-4179-8d00-3ec43ca1e6e0"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3D(Name%3DbuttonRestore_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="6e2aaa3e-309c-4669-87ef-143af42de8a6"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package2_0225.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5843c651-9605-4a2a-8151-d70c430b95d0"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="68506421-aa2e-4abb-a317-82fb1f568acb"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3D(Name%3DbuttonRestore_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="0f8615e4-71d2-4305-bf24-ee4050f3c00d"
+                      LastKnownName="EventArgs"
+                      LastKnownLocation="Package2_0225.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="dfdf8d1f-2bdb-47b4-bf7f-c9b0d1d11456"
+            name="WebSocketOnData"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ad8459fa-41b8-4d09-ac47-0f00b0f986e3"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3D(Name%3DWebSocketOnData OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2Fpackages%2FSuperWebSocketNETServer.0.8%2Flib%2Fnet45%2FSuperWebSocket.dll Namespace%3DSuperWebSocket Type%3DWebSocketSession)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DByte ArrayRank%3D1 ParentType%3DByte))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c72d6253-006a-4036-b8f0-c85db7db4ea2"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0efb6472-22e0-4eb0-8ce6-6ac44ddc6a54">
+                    <propertyInstance
+                      Id="ee456261-6ea8-4c55-9068-76b5c9bbd191"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0b17b30d-28c6-4c91-aad4-8da1e768d6a6">
+                    <propertyInstance
+                      Id="970cdc1f-05d3-41ef-b684-aafa865109c8"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="51e35e84-5487-4900-b05a-aa52e188dda0">
+                    <propertyInstance
+                      Id="304adaeb-b129-4081-93d3-d43c4c9a824a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ed41a483-db6b-48e3-a314-649c05ae9eb3">
+                    <propertyInstance
+                      Id="eef4fed4-43aa-4c60-a493-a538a39057ee"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2cf77388-665d-41aa-ad2c-7c277abd187d">
+                    <propertyInstance
+                      Id="78ddabec-7705-4bfd-bc2c-a9ed586a2130"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2f2cf14e-8029-4b4f-a5ba-0d751aba4899">
+                    <propertyInstance
+                      Id="322f1db8-9a91-47ac-b2d9-e5cd7f539338"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6d0ef8df-96aa-41ed-b4a0-77a4f87945f7"
+                  name="session"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="00bc6800-9f75-42f9-8123-6773d2e26b46"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3D(Name%3DWebSocketOnData OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2Fpackages%2FSuperWebSocketNETServer.0.8%2Flib%2Fnet45%2FSuperWebSocket.dll Namespace%3DSuperWebSocket Type%3DWebSocketSession)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DByte ArrayRank%3D1 ParentType%3DByte))]) ParameterIdentifier%3Dsession"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="ae78824e-fb5f-43a2-a031-c6b8c4e2a6e7"
+                      LastKnownName="WebSocketSession"
+                      LastKnownLocation="Package1_0225.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="81680a4e-60bd-47ec-bfa0-13abbbe6aaa4"
+                  name="value"
+                  direction="In"
+                  isOrdered="true">
+                  <referencesInternal>
+                    <reference
+                      Id="a9e68203-5ee3-4092-807d-eab2dc02b597"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3D(Name%3DWebSocketOnData OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2Fpackages%2FSuperWebSocketNETServer.0.8%2Flib%2Fnet45%2FSuperWebSocket.dll Namespace%3DSuperWebSocket Type%3DWebSocketSession)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DByte ArrayRank%3D1 ParentType%3DByte))]) ParameterIdentifier%3Dvalue"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <lowerValueInternal>
+                    <literalString
+                      Id="7cec473a-f12b-458c-b727-1f9fe5f68a08"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="227c380b-0956-4009-9b96-9de351c1d60c"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="5f2c60c0-2095-4559-80fb-aa90928fc989"
+                      LastKnownName="Byte"
+                      LastKnownLocation="Package2_0225.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="74898fd9-5651-4e66-9bbc-2de342df7953"
+            name="WebSocketOnMessage"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="02bea065-be68-4fd3-af84-e0ffa0f9ba20"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3D(Name%3DWebSocketOnMessage OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2Fpackages%2FSuperWebSocketNETServer.0.8%2Flib%2Fnet45%2FSuperWebSocket.dll Namespace%3DSuperWebSocket Type%3DWebSocketSession)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d9e67da4-80c2-4abd-9022-e11c1ebb4d55"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="97f22875-9664-4ac4-b2db-fadc2c4d1e38">
+                    <propertyInstance
+                      Id="fc9ffb9e-d618-4a26-a91b-be640d6493be"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9eff177c-168d-4814-9c0f-a114133af747">
+                    <propertyInstance
+                      Id="affdad47-2fb6-44e5-9547-1329c18dbd9c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="09dd72b9-0b74-4ccb-972d-d2885cbd6d4f">
+                    <propertyInstance
+                      Id="b66f79e2-b076-40a4-9b52-b6ba00ebc188"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f3c292d-7f2a-40cb-81e7-80c2061809d4">
+                    <propertyInstance
+                      Id="116cb43e-4a81-4f37-972c-e83dc88475ea"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="283d5a97-9cdc-46e4-a4d0-c3a9cb6ea63b">
+                    <propertyInstance
+                      Id="981487f2-3b91-4801-97e3-c2e6518ab3fe"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="726cdb5e-af0d-4158-91b7-171d5318260b">
+                    <propertyInstance
+                      Id="4fc59df3-7085-4414-a957-1d8f113796db"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="dc1db972-6d09-4efb-803b-29c3997d3a2d"
+                  name="session"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="78bde15a-e0e1-450d-b57f-cfa0147c426a"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3D(Name%3DWebSocketOnMessage OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2Fpackages%2FSuperWebSocketNETServer.0.8%2Flib%2Fnet45%2FSuperWebSocket.dll Namespace%3DSuperWebSocket Type%3DWebSocketSession)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dsession"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="ae78824e-fb5f-43a2-a031-c6b8c4e2a6e7"
+                      LastKnownName="WebSocketSession"
+                      LastKnownLocation="Package1_0225.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="de03c650-871d-4168-877d-29cbcb05250d"
+                  name="value"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="bf1d1537-7b58-48ff-9865-234578ca7e24"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3D(Name%3DWebSocketOnMessage OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2Fpackages%2FSuperWebSocketNETServer.0.8%2Flib%2Fnet45%2FSuperWebSocket.dll Namespace%3DSuperWebSocket Type%3DWebSocketSession)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dvalue"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="e1856b3c-3879-4d58-90d0-fe0b8fd589d0"
+            name="WebSocketConnectionNew"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a9b092fa-2711-431f-8c91-338a078f27eb"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3D(Name%3DWebSocketConnectionNew OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2Fpackages%2FSuperWebSocketNETServer.0.8%2Flib%2Fnet45%2FSuperWebSocket.dll Namespace%3DSuperWebSocket Type%3DWebSocketSession)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="88e124b7-d9ba-4275-99ae-cefcb437faed"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="75c1ae9c-1248-44cb-b5ee-08487113403a">
+                    <propertyInstance
+                      Id="c8c4b524-fb6f-4d05-8a35-046a82d74a3c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="de90ac69-eff9-473b-8378-f0c07118e542">
+                    <propertyInstance
+                      Id="3d32a779-866d-4545-a8bb-9294b54d86f1"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="34b426b1-c69a-4c31-9134-c268155ce84f">
+                    <propertyInstance
+                      Id="5ee62477-402f-4f4d-9ef9-b7415f1d357d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4cc1b00c-2a3c-4b2a-8c87-592d096d647f">
+                    <propertyInstance
+                      Id="0749b034-78d8-4e5f-88f1-6d1eca04e55d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="026f9dba-65e5-405c-aee4-754dce80b152">
+                    <propertyInstance
+                      Id="28772ec1-9fe3-4e32-a3c4-4b558536da71"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9981583b-3153-4174-8f25-6bae69341160">
+                    <propertyInstance
+                      Id="0ecf09af-ccbc-47a9-b06b-4b068db87877"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a3137ec3-943a-4c06-a738-70b1e8dd89fc"
+                  name="session"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="908dcd87-f816-4220-86b8-731d6d79db19"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3D(Name%3DWebSocketConnectionNew OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2Fpackages%2FSuperWebSocketNETServer.0.8%2Flib%2Fnet45%2FSuperWebSocket.dll Namespace%3DSuperWebSocket Type%3DWebSocketSession)]) ParameterIdentifier%3Dsession"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="ae78824e-fb5f-43a2-a031-c6b8c4e2a6e7"
+                      LastKnownName="WebSocketSession"
+                      LastKnownLocation="Package1_0225.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="2c745087-4131-4b0f-bad4-dcae752d1c30"
+            name="WebSocketConnectionClose"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="1e11828c-21d6-4d70-9cb8-584dc76b4b72"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3D(Name%3DWebSocketConnectionClose OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2Fpackages%2FSuperWebSocketNETServer.0.8%2Flib%2Fnet45%2FSuperWebSocket.dll Namespace%3DSuperWebSocket Type%3DWebSocketSession)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2Fpackages%2FSuperWebSocketNETServer.0.8%2Flib%2Fnet45%2FSuperSocket.SocketBase.dll Namespace%3DSuperSocket.SocketBase Type%3DCloseReason)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="006fefc5-2064-43fd-9b98-e97e5bb705fa"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="26ba04d7-8da1-4887-90f3-47258e73e229">
+                    <propertyInstance
+                      Id="3bb8ea77-68cb-4f4e-9507-62a57bc30505"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0f9283f-65e1-4ca1-85f5-c1940974d3af">
+                    <propertyInstance
+                      Id="8dda7717-51d6-4f93-a85d-31a8999f5d30"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4556ebe2-6706-4ec8-a9fc-3c8b979fb530">
+                    <propertyInstance
+                      Id="622565b1-2387-462c-a718-a0dcdf18c697"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="601ca33f-c03e-4b7f-bc25-ba28f00670e2">
+                    <propertyInstance
+                      Id="f65093c2-5beb-4c9f-b2c0-b4f93ba4ae05"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="424b26cb-aebe-4c20-8697-1831ea38fe91">
+                    <propertyInstance
+                      Id="c6fe2e1e-9e3a-4de3-a743-a1761cfa1d45"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c602076b-1ebf-4a3f-bc91-46d9a44dcc1f">
+                    <propertyInstance
+                      Id="d439c087-8c92-447b-81e4-6fe06e316fbd"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="cb38942c-cbe5-4b61-9add-dc36a72aeab2"
+                  name="session"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="9fa23db9-09c4-477a-bf5f-84c902cb477f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3D(Name%3DWebSocketConnectionClose OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2Fpackages%2FSuperWebSocketNETServer.0.8%2Flib%2Fnet45%2FSuperWebSocket.dll Namespace%3DSuperWebSocket Type%3DWebSocketSession)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2Fpackages%2FSuperWebSocketNETServer.0.8%2Flib%2Fnet45%2FSuperSocket.SocketBase.dll Namespace%3DSuperSocket.SocketBase Type%3DCloseReason)]) ParameterIdentifier%3Dsession"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="ae78824e-fb5f-43a2-a031-c6b8c4e2a6e7"
+                      LastKnownName="WebSocketSession"
+                      LastKnownLocation="Package1_0225.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="307c0214-f8bf-4294-851f-beac496ef010"
+                  name="value"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="f66500ef-56d0-41bc-a07d-60a970076fcb"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3D(Name%3DWebSocketConnectionClose OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2Fpackages%2FSuperWebSocketNETServer.0.8%2Flib%2Fnet45%2FSuperWebSocket.dll Namespace%3DSuperWebSocket Type%3DWebSocketSession)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2Fpackages%2FSuperWebSocketNETServer.0.8%2Flib%2Fnet45%2FSuperSocket.SocketBase.dll Namespace%3DSuperSocket.SocketBase Type%3DCloseReason)]) ParameterIdentifier%3Dvalue"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="0b2aa894-efd8-4cc2-ae56-d277b3a016ab"
+                      LastKnownName="CloseReason"
+                      LastKnownLocation="Package2_0226.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="ba826767-5644-4c42-9f8a-efb775e41c49"
+            name="Dispose"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9276bbe2-7e9e-4fd7-bb22-38ea75b099ac"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3D(Name%3DDispose OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="918a2c24-ba19-438e-9eee-6df626ae26e4"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="156c069a-af3e-460b-8d93-3401c4ee751a">
+                    <propertyInstance
+                      Id="02d5d223-87fc-4801-b415-7e4cf68e0e73"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d071a421-3db6-4f97-8dc6-2d9ffa4c5e0c">
+                    <propertyInstance
+                      Id="a8206c4a-a0aa-4539-b892-e61f997d4120"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="72b28d15-73d1-4d06-b97a-e3506e88c46e">
+                    <propertyInstance
+                      Id="24639a69-53c8-4322-8b64-a851d31ea966"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f21f568d-0714-4541-83cb-c73d3414b47d">
+                    <propertyInstance
+                      Id="ad56be99-7e57-45b5-8377-46b4c95ded65"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ed398b88-816b-468c-bc2d-9e8f413d8189">
+                    <propertyInstance
+                      Id="d20af791-6651-4055-bbfb-a22625122787"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a9e324eb-81dc-472e-8a21-f4a0686139cc">
+                    <propertyInstance
+                      Id="afd18552-88d5-422d-8970-1d9a1c38933f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0d7efadc-c003-4d2d-b9cb-3c94b17433d7"
+                  name="disposing"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ce060827-4271-443b-a63e-5694aa1406a2"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3D(Name%3DDispose OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]) ParameterIdentifier%3Ddisposing"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="fcefed13-b4e9-408b-b939-71c1145e6a9a"
+            name="InitializeComponent"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c6550613-4ad0-40d4-80d6-16f15b8f69e0"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2FWindowsFormsApplication1%2Fbin%2FDebug%2FRoulette.exe Namespace%3DRoulette Type%3DForm1 Member%3DInitializeComponent"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fec4a5d2-15f1-40b9-a14a-8a4bf4b47b2d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="244b8729-e111-45cf-8830-a8d81fc42592">
+                    <propertyInstance
+                      Id="3a0eda5e-b333-4a3a-a835-cc2307d0621c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="91f0ed5f-f22c-4389-bac7-cd89a58e56e3">
+                    <propertyInstance
+                      Id="8e2e66fc-fe7c-484a-9217-a300cd201ed0"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="efd41722-ef9f-448f-9da3-423e9915e6dd">
+                    <propertyInstance
+                      Id="95d76745-dd1e-411e-8374-d41aaae37f0a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d0ebcd17-dea9-431f-8b06-3d4887ee914b">
+                    <propertyInstance
+                      Id="d3ea5b21-05a6-448b-8993-c047ed2d7599"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="42af652f-86aa-4472-b9ab-ef5d5d07ae64">
+                    <propertyInstance
+                      Id="8b108d1f-e45d-4327-8546-00ed9664cd04"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c567e78f-8d8f-4512-abbc-7315e8f00d9e">
+                    <propertyInstance
+                      Id="95119dab-f9d5-4607-9d56-fed55d55e473"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

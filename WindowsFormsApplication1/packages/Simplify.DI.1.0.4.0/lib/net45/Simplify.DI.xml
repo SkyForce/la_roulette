@@ -1,0 +1,441 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Simplify.DI</name>
+    </assembly>
+    <members>
+        <member name="T:Simplify.DI.DIContainer">
+            <summary>
+            AcspNet IOC ambient context container to register/resolve objects for DI
+            </summary>
+        </member>
+        <member name="P:Simplify.DI.DIContainer.Current">
+            <summary>
+            The IOC container
+            </summary>
+        </member>
+        <member name="T:Simplify.DI.Provider.DryIoc.DryIocDIProvider">
+            <summary>
+            DryIoc DI container provider implementation
+            </summary>
+        </member>
+        <member name="T:Simplify.DI.IDIContainerProvider">
+            <summary>
+            Represents DI container provider
+            </summary>
+        </member>
+        <member name="T:Simplify.DI.IHideObjectMembers">
+            <summary>
+            Helper interface used to hide the base <see cref="T:System.Object" />
+            members from the fluent API to make it much cleaner
+            in Visual Studio intellisense.
+            </summary>
+        </member>
+        <member name="M:Simplify.DI.IHideObjectMembers.GetType">
+            <summary>
+            Gets the type.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Simplify.DI.IHideObjectMembers.GetHashCode">
+            <summary>
+            Returns a hash code for this instance.
+            </summary>
+            <returns>
+            A hash code for this instance, suitable for use in hashing algorithms and data structures like a hash table. 
+            </returns>
+        </member>
+        <member name="M:Simplify.DI.IHideObjectMembers.ToString">
+            <summary>
+            Returns a <see cref="T:System.String"/> that represents this instance.
+            </summary>
+            <returns>
+            A <see cref="T:System.String"/> that represents this instance.
+            </returns>
+        </member>
+        <member name="M:Simplify.DI.IHideObjectMembers.Equals(System.Object)">
+            <summary>
+            Determines whether the specified <see cref="T:System.Object"/>, is equal to this instance.
+            </summary>
+            <param name="obj">The <see cref="T:System.Object"/> to compare with this instance.</param>
+            <returns>
+              <c>true</c> if the specified <see cref="T:System.Object"/> is equal to this instance; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:Simplify.DI.IDIContainerProvider.Resolve(System.Type)">
+            <summary>
+            Resolves the specified type.
+            </summary>
+            <param name="type">The type.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Simplify.DI.IDIContainerProvider.Register(System.Type,System.Type,Simplify.DI.LifetimeType)">
+            <summary>
+            Registers the specified service type with corresponding implementation type.
+            </summary>
+            <param name="serviceType">Service type.</param>
+            <param name="implementationType">Implementation type.</param>
+            <param name="lifetimeType">Lifetime type of the registering service type.</param>
+        </member>
+        <member name="M:Simplify.DI.IDIContainerProvider.Register``1(System.Func{Simplify.DI.IDIContainerProvider,``0},Simplify.DI.LifetimeType)">
+            <summary>
+            Registers the specified service type for resolve with delegate for service implementation instance creation.
+            </summary>
+            <typeparam name="TService">Service type.</typeparam>
+            <param name="instanceCreator">The instance creator.</param>
+            <param name="lifetimeType">Lifetime type of the registering concrete type.</param>
+        </member>
+        <member name="M:Simplify.DI.IDIContainerProvider.BeginLifetimeScope">
+            <summary>
+            Begins the lifetime scope.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Simplify.DI.Provider.DryIoc.DryIocDIProvider.Resolve(System.Type)">
+            <summary>
+            Resolves the specified service type.
+            </summary>
+            <param name="serviceType">Type of the service.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Simplify.DI.Provider.DryIoc.DryIocDIProvider.Register(System.Type,System.Type,Simplify.DI.LifetimeType)">
+            <summary>
+            Registers the specified service type with corresponding implementation type.
+            </summary>
+            <param name="serviceType">Service type.</param>
+            <param name="implementationType">Implementation type.</param>
+            <param name="lifetimeType">Lifetime type of the registering services type.</param>
+        </member>
+        <member name="M:Simplify.DI.Provider.DryIoc.DryIocDIProvider.Register``1(System.Func{Simplify.DI.IDIContainerProvider,``0},Simplify.DI.LifetimeType)">
+            <summary>
+            Registers the specified concrete type for resolve with delegate for concrete implementation instance creation.
+            </summary>
+            <typeparam name="TService">Service type.</typeparam>
+            <param name="instanceCreator">The instance creator.</param>
+            <param name="lifetimeType">Lifetime type of the registering concrete type.</param>
+        </member>
+        <member name="M:Simplify.DI.Provider.DryIoc.DryIocDIProvider.BeginLifetimeScope">
+            <summary>
+            Begins the lifetime scope.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Simplify.DI.Provider.DryIoc.DryIocDIProvider.Container">
+            <summary>
+            The IOC container
+            </summary>
+        </member>
+        <member name="T:Simplify.DI.Provider.DryIoc.DryIocLifetimeScope">
+            <summary>
+            DryIoc DI provider lifetime scope implementation
+            </summary>
+        </member>
+        <member name="T:Simplify.DI.ILifetimeScope">
+            <summary>
+            Represents DI Container provider lifetime scope
+            </summary>
+        </member>
+        <member name="P:Simplify.DI.ILifetimeScope.Container">
+            <summary>
+            Gets the DI container provider (should be used to resolve types when using scoping).
+            </summary>
+            <value>
+            The DI container provider (should be used to resolve types when using scoping).
+            </value>
+        </member>
+        <member name="M:Simplify.DI.Provider.DryIoc.DryIocLifetimeScope.#ctor(Simplify.DI.Provider.DryIoc.DryIocDIProvider)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Simplify.DI.Provider.DryIoc.DryIocLifetimeScope"/> class.
+            </summary>
+            <param name="provider">The provider.</param>
+        </member>
+        <member name="M:Simplify.DI.Provider.DryIoc.DryIocLifetimeScope.Dispose">
+            <summary>
+            Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+            </summary>
+        </member>
+        <member name="P:Simplify.DI.Provider.DryIoc.DryIocLifetimeScope.Container">
+            <summary>
+            Gets the DI container provider (should be user to resolve types when using scoping).
+            </summary>
+            <value>
+            The DI container provider (should be user to resolve types when using scoping).
+            </value>
+        </member>
+        <member name="T:Simplify.DI.DIContainerProviderRegisterExtensions">
+            <summary>
+            Provides DI container provider register extensions
+            </summary>
+        </member>
+        <member name="M:Simplify.DI.DIContainerProviderRegisterExtensions.Register(Simplify.DI.IDIContainerProvider,System.Type,Simplify.DI.LifetimeType)">
+            <summary>
+            Registers the specified concrete type for resolve.
+            </summary>
+            <param name="provider">The DI provider.</param>
+            <param name="concreteType">Concrete type.</param>
+            <param name="lifetimeType">Lifetime type of the registering concrete type.</param>
+        </member>
+        <member name="M:Simplify.DI.DIContainerProviderRegisterExtensions.Register``1(Simplify.DI.IDIContainerProvider,System.Type,Simplify.DI.LifetimeType)">
+            <summary>
+            Registers the specified service type with corresponding implementation type.
+            </summary>
+            <typeparam name="TService">Service type.</typeparam>
+            <param name="provider">The DI provider.</param>
+            <param name="implementationType">Implementation type.</param>
+            <param name="lifetimeType">Lifetime type of the registering service type.</param>
+        </member>
+        <member name="M:Simplify.DI.DIContainerProviderRegisterExtensions.Register``2(Simplify.DI.IDIContainerProvider,Simplify.DI.LifetimeType)">
+            <summary>
+            Registers the specified service type with corresponding implementation type.
+            </summary>
+            <typeparam name="TService">Service type.</typeparam>
+            <typeparam name="TImplementation">Implementation type.</typeparam>
+            <param name="provider">The DI provider.</param>
+            <param name="lifetimeType">Lifetime type of the registering service type.</param>
+        </member>
+        <member name="M:Simplify.DI.DIContainerProviderRegisterExtensions.Register``1(Simplify.DI.IDIContainerProvider,Simplify.DI.LifetimeType)">
+            <summary>
+            Registers the specified concrete type for resolve.
+            </summary>
+            <typeparam name="TConcrete">Concrete type.</typeparam>
+            <param name="provider">The DI provider.</param>
+            <param name="lifetimeType">Lifetime type of the registering concrete type.</param>
+        </member>
+        <member name="T:Simplify.DI.DIContainerProviderResolveExtensions">
+            <summary>
+            Provides DI container provider resolve extensions
+            </summary>
+        </member>
+        <member name="M:Simplify.DI.DIContainerProviderResolveExtensions.Resolve``1(Simplify.DI.IDIContainerProvider)">
+            <summary>
+            Resolves the specifed type.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="provider">The DI provider.</param>
+            <returns></returns>
+        </member>
+        <member name="T:DryIoc.Container">
+            <summary>
+            IoC Container. Documentation is available at https://bitbucket.org/dadhi/dryioc.
+            </summary>
+        </member>
+        <member name="M:DryIoc.Registrator.Register(DryIoc.IRegistrator,System.Type,DryIoc.Factory,System.String)">
+            <summary>
+            Registers service <paramref name="serviceType"/>.
+            </summary>
+            <param name="registrator">Any <see cref="T:DryIoc.IRegistrator"/> implementation, e.g. <see cref="T:DryIoc.Container"/>.</param>
+            <param name="serviceType">The service type to register</param>
+            <param name="factory"><see cref="T:DryIoc.Factory"/> details object.</param>
+            <param name="named">Optional name of the service.</param>
+        </member>
+        <member name="M:DryIoc.Registrator.Register``1(DryIoc.IRegistrator,DryIoc.Factory,System.String)">
+            <summary>
+            Registers service of <typeparamref name="TService"/>.
+            </summary>
+            <typeparam name="TService">The type of service.</typeparam>
+            <param name="registrator">Any <see cref="T:DryIoc.IRegistrator"/> implementation, e.g. <see cref="T:DryIoc.Container"/>.</param>
+            <param name="factory"><see cref="T:DryIoc.Factory"/> details object.</param>
+            <param name="named">Optional name of the service.</param>
+        </member>
+        <member name="M:DryIoc.Registrator.Register(DryIoc.IRegistrator,System.Type,System.Type,DryIoc.IReuse,DryIoc.GetConstructor,DryIoc.FactorySetup,System.String)">
+            <summary>
+            Registers service <paramref name="serviceType"/> with corresponding <paramref name="implementationType"/>.
+            </summary>
+            <param name="registrator">Any <see cref="T:DryIoc.IRegistrator"/> implementation, e.g. <see cref="T:DryIoc.Container"/>.</param>
+            <param name="serviceType">The service type to register.</param>
+            <param name="implementationType">Implementation type. Concrete and open-generic class are supported.</param>
+            <param name="reuse">Optional <see cref="T:DryIoc.IReuse"/> implementation, e.g. <see cref="F:DryIoc.Reuse.Singleton"/>. Default value means no reuse, aka Transient.</param>
+            <param name="getConstructor">Optional strategy to select constructor when multiple available.</param>
+            <param name="setup">Optional factory setup, by default is (<see cref="T:DryIoc.ServiceSetup"/>)</param>
+            <param name="named">Optional registration name.</param>
+        </member>
+        <member name="M:DryIoc.Registrator.Register(DryIoc.IRegistrator,System.Type,DryIoc.IReuse,DryIoc.GetConstructor,DryIoc.FactorySetup,System.String)">
+            <summary>
+            Registers service of <paramref name="implementationType"/>. ServiceType will be the same as <paramref name="implementationType"/>.
+            </summary>
+            <param name="registrator">Any <see cref="T:DryIoc.IRegistrator"/> implementation, e.g. <see cref="T:DryIoc.Container"/>.</param>
+            <param name="implementationType">Implementation type. Concrete and open-generic class are supported.</param>
+            <param name="reuse">Optional <see cref="T:DryIoc.IReuse"/> implementation, e.g. <see cref="F:DryIoc.Reuse.Singleton"/>. Default value means no reuse, aka Transient.</param>
+            <param name="withConstructor">Optional strategy to select constructor when multiple available.</param>
+            <param name="setup">Optional factory setup, by default is (<see cref="T:DryIoc.ServiceSetup"/>)</param>
+            <param name="named">Optional registration name.</param>
+        </member>
+        <member name="M:DryIoc.Registrator.Register``2(DryIoc.IRegistrator,DryIoc.IReuse,DryIoc.GetConstructor,DryIoc.FactorySetup,System.String)">
+            <summary>
+            Registers service of <typeparamref name="TService"/> type implemented by <typeparamref name="TImplementation"/> type.
+            </summary>
+            <typeparam name="TService">The type of service.</typeparam>
+            <typeparam name="TImplementation">The type of service.</typeparam>
+            <param name="registrator">Any <see cref="T:DryIoc.IRegistrator"/> implementation, e.g. <see cref="T:DryIoc.Container"/>.</param>
+            <param name="reuse">Optional <see cref="T:DryIoc.IReuse"/> implementation, e.g. <see cref="F:DryIoc.Reuse.Singleton"/>. Default value means no reuse, aka Transient.</param>
+            <param name="withConstructor">Optional strategy to select constructor when multiple available.</param>
+            <param name="setup">Optional factory setup, by default is (<see cref="T:DryIoc.ServiceSetup"/>)</param>
+            <param name="named">Optional registration name.</param>
+        </member>
+        <member name="M:DryIoc.Registrator.Register``1(DryIoc.IRegistrator,DryIoc.IReuse,DryIoc.GetConstructor,DryIoc.FactorySetup,System.String)">
+            <summary>
+            Registers implementation type <typeparamref name="TImplementation"/> with itself as service type.
+            </summary>
+            <typeparam name="TImplementation">The type of service.</typeparam>
+            <param name="registrator">Any <see cref="T:DryIoc.IRegistrator"/> implementation, e.g. <see cref="T:DryIoc.Container"/>.</param>
+            <param name="reuse">Optional <see cref="T:DryIoc.IReuse"/> implementation, e.g. <see cref="F:DryIoc.Reuse.Singleton"/>. Default value means no reuse, aka Transient.</param>
+            <param name="withConstructor">Optional strategy to select constructor when multiple available.</param>
+            <param name="setup">Optional factory setup, by default is (<see cref="T:DryIoc.ServiceSetup"/>)</param>
+            <param name="named">Optional registration name.</param>
+        </member>
+        <member name="M:DryIoc.Registrator.RegisterAll(DryIoc.IRegistrator,System.Type,DryIoc.IReuse,DryIoc.GetConstructor,DryIoc.FactorySetup,System.String,System.Func{System.Type,System.Boolean})">
+            <summary>
+            Registers single registration for all implemented public interfaces and base classes.
+            </summary>
+            <param name="registrator">Any <see cref="T:DryIoc.IRegistrator"/> implementation, e.g. <see cref="T:DryIoc.Container"/>.</param>
+            <param name="implementationType">Service implementation type. Concrete and open-generic class are supported.</param>
+            <param name="reuse">Optional <see cref="T:DryIoc.IReuse"/> implementation, e.g. <see cref="F:DryIoc.Reuse.Singleton"/>. Default value means no reuse, aka Transient.</param>
+            <param name="withConstructor">Optional strategy to select constructor when multiple available.</param>
+            <param name="setup">Optional factory setup, by default is (<see cref="T:DryIoc.ServiceSetup"/>)</param>
+            <param name="named">Optional registration name.</param>
+            <param name="types">Optional condition to include selected types only. Default value is <see cref="F:DryIoc.Registrator.PublicTypes"/></param>
+        </member>
+        <member name="M:DryIoc.Registrator.RegisterAll``1(DryIoc.IRegistrator,DryIoc.IReuse,DryIoc.GetConstructor,DryIoc.FactorySetup,System.String)">
+            <summary>
+            Registers single registration for all implemented public interfaces and base classes.
+            </summary>
+            <typeparam name="TImplementation">The type of service.</typeparam>
+            <param name="registrator">Any <see cref="T:DryIoc.IRegistrator"/> implementation, e.g. <see cref="T:DryIoc.Container"/>.</param>
+            <param name="reuse">Optional <see cref="T:DryIoc.IReuse"/> implementation, e.g. <see cref="F:DryIoc.Reuse.Singleton"/>. Default value means no reuse, aka Transient.</param>
+            <param name="withConstructor">Optional strategy to select constructor when multiple available.</param>
+            <param name="setup">Optional factory setup, by default is (<see cref="T:DryIoc.ServiceSetup"/>)</param>
+            <param name="named">Optional registration name.</param>
+        </member>
+        <member name="M:DryIoc.Registrator.RegisterDelegate``1(DryIoc.IRegistrator,System.Func{DryIoc.IResolver,``0},DryIoc.IReuse,DryIoc.FactorySetup,System.String)">
+            <summary>
+            Registers a factory delegate for creating an instance of <typeparamref name="TService"/>.
+            Delegate can use <see cref="T:DryIoc.IResolver"/> parameter to resolve any required dependencies, e.g.:
+            <code>RegisterDelegate&lt;ICar&gt;(r =&gt; new Car(r.Resolve&lt;IEngine&gt;()))</code>
+            </summary>
+            <typeparam name="TService">The type of service.</typeparam>
+            <param name="registrator">Any <see cref="T:DryIoc.IRegistrator"/> implementation, e.g. <see cref="T:DryIoc.Container"/>.</param>
+            <param name="lambda">The delegate used to create a instance of <typeparamref name="TService"/>.</param>
+            <param name="reuse">Optional <see cref="T:DryIoc.IReuse"/> implementation, e.g. <see cref="F:DryIoc.Reuse.Singleton"/>. Default value means no reuse, aka Transient.</param>
+            <param name="setup">Optional factory setup, by default is (<see cref="T:DryIoc.ServiceSetup"/>)</param>
+            <param name="named">Optional service name.</param>
+        </member>
+        <member name="M:DryIoc.Registrator.RegisterInstance``1(DryIoc.IRegistrator,``0,DryIoc.FactorySetup,System.String)">
+            <summary>
+            Registers a pre-created service instance of <typeparamref name="TService"/> 
+            </summary>
+            <typeparam name="TService">The type of service.</typeparam>
+            <param name="registrator">Any <see cref="T:DryIoc.IRegistrator"/> implementation, e.g. <see cref="T:DryIoc.Container"/>.</param>
+            <param name="instance">The pre-created instance of <typeparamref name="TService"/>.</param>
+            <param name="setup">Optional factory setup, by default is (<see cref="T:DryIoc.ServiceSetup"/>)</param>
+            <param name="named">Optional service name.</param>
+        </member>
+        <member name="M:DryIoc.Registrator.IsRegistered(DryIoc.IRegistrator,System.Type,System.String)">
+            <summary>
+            Returns true if <paramref name="serviceType"/> is registered in container or its open generic definition is registered in container.
+            </summary>
+            <param name="registrator">Any <see cref="T:DryIoc.IRegistrator"/> implementation, e.g. <see cref="T:DryIoc.Container"/>.</param>
+            <param name="serviceType">The type of the registered service.</param>
+            <param name="named">Optional service name</param>
+            <returns>True if <paramref name="serviceType"/> is registered, false - otherwise.</returns>
+        </member>
+        <member name="M:DryIoc.Registrator.IsRegistered``1(DryIoc.IRegistrator,System.String)">
+            <summary>
+            Returns true if <typeparamref name="TService"/> type is registered in container or its open generic definition is registered in container.
+            </summary>
+            <typeparam name="TService">The type of service.</typeparam>
+            <param name="registrator">Any <see cref="T:DryIoc.IRegistrator"/> implementation, e.g. <see cref="T:DryIoc.Container"/>.</param>
+            <param name="named">Optional service name</param>
+            <returns>True if <typeparamref name="TService"/> name="serviceType"/&gt; is registered, false - otherwise.</returns>
+        </member>
+        <member name="M:DryIoc.Resolver.Resolve(DryIoc.IResolver,System.Type,DryIoc.IfUnresolved)">
+            <summary>
+            Returns an instance of statically known <typepsaramref name="TService"/> type.
+            </summary>
+            <param name="serviceType">The type of the requested service.</param>
+            <param name="resolver">Any <see cref="T:DryIoc.IResolver"/> implementation, e.g. <see cref="T:DryIoc.Container"/>.</param>
+            <param name="ifUnresolved">Optional, say to how to handle unresolved service case.</param>
+            <returns>The requested service instance.</returns>
+        </member>
+        <member name="M:DryIoc.Resolver.Resolve``1(DryIoc.IResolver,DryIoc.IfUnresolved)">
+            <summary>
+            Returns an instance of statically known <typepsaramref name="TService"/> type.
+            </summary>
+            <typeparam name="TService">The type of the requested service.</typeparam>
+            <param name="resolver">Any <see cref="T:DryIoc.IResolver"/> implementation, e.g. <see cref="T:DryIoc.Container"/>.</param>
+            <param name="ifUnresolved">Optional, say to how to handle unresolved service case.</param>
+            <returns>The requested service instance.</returns>
+        </member>
+        <member name="M:DryIoc.Resolver.Resolve(DryIoc.IResolver,System.Type,System.String,DryIoc.IfUnresolved)">
+            <summary>
+            Returns an instance of statically known <typepsaramref name="TService"/> type.
+            </summary>
+            <param name="serviceType">The type of the requested service.</param>
+            <param name="resolver">Any <see cref="T:DryIoc.IResolver"/> implementation, e.g. <see cref="T:DryIoc.Container"/>.</param>
+            <param name="serviceName">Service name.</param>
+            <param name="ifUnresolved">Optional, say to how to handle unresolved service case.</param>
+            <returns>The requested service instance.</returns>
+        </member>
+        <member name="M:DryIoc.Resolver.Resolve``1(DryIoc.IResolver,System.String,DryIoc.IfUnresolved)">
+            <summary>
+            Returns an instance of statically known <typepsaramref name="TService"/> type.
+            </summary>
+            <typeparam name="TService">The type of the requested service.</typeparam>
+            <param name="resolver">Any <see cref="T:DryIoc.IResolver"/> implementation, e.g. <see cref="T:DryIoc.Container"/>.</param>
+            <param name="serviceName">Service name.</param>
+            <param name="ifUnresolved">Optional, say to how to handle unresolved service case.</param>
+            <returns>The requested service instance.</returns>
+        </member>
+        <member name="M:DryIoc.Resolver.ResolvePropertiesAndFields(DryIoc.IResolver,System.Object,System.Func{System.Reflection.MemberInfo,System.String})">
+            <summary>
+            For given instance resolves and sets non-initialized (null) properties from container.
+            It does not throw if property is not resolved, so you might need to check property value afterwards.
+            </summary>
+            <param name="resolver">Any <see cref="T:DryIoc.IResolver"/> implementation, e.g. <see cref="T:DryIoc.Container"/>.</param>
+            <param name="instance">Service instance with properties to resolve and initialize.</param>
+            <param name="getServiceName">Optional function to find service name, otherwise service name will be null.</param>
+        </member>
+        <member name="M:DryIoc.Ref.Swap``1(``0@,System.Func{``0,``0})">
+            <remarks>
+            First, it evaluates new value using <paramref name="getValue"/> function. 
+            Second, it checks that original value is not changed. 
+            If it is changed it will retry first step, otherwise it assigns new value and returns original (the one used for <paramref name="getValue"/>).
+            </remarks>
+        </member>
+        <member name="M:DryIoc.TypeTools.GetImplementedTypes(System.Type,DryIoc.TypeTools.IncludeTypeItself)">
+            <summary>
+            Returns all type interfaces and base types except object.
+            </summary>
+        </member>
+        <member name="T:DryIoc.HashTree`2">
+            <summary>
+            Immutable kind of http://en.wikipedia.org/wiki/AVL_tree, where actual node key is <typeparamref name="K"/> hash code.
+            </summary>
+        </member>
+        <member name="M:DryIoc.HashTree`2.TraverseInOrder">
+            <summary>
+            Depth-first in-order traversal as described in http://en.wikipedia.org/wiki/Tree_traversal
+            The only difference is using fixed size array instead of stack for speed-up (~20% faster than stack).
+            </summary>
+        </member>
+        <member name="T:Simplify.DI.LifetimeType">
+            <summary>
+            Represents life time types of the registered service.
+            </summary>
+        </member>
+        <member name="F:Simplify.DI.LifetimeType.PerLifetimeScope">
+            <summary>
+            The same object will be resolved for the same scope.
+            </summary>
+        </member>
+        <member name="F:Simplify.DI.LifetimeType.Singleton">
+            <summary>
+            This object will be created only once and the same object will be returned each time it is resolved.
+            </summary>
+        </member>
+        <member name="F:Simplify.DI.LifetimeType.Transient">
+            <summary>
+            The object will be created every time it is resolved.
+            </summary>
+        </member>
+    </members>
+</doc>

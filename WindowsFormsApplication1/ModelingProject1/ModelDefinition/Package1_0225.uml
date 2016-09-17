@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="38067428-a8d8-494b-a79f-d1bd8581e727"
+  name="SuperWebSocket"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="60f5b45a-161b-437e-9fb7-ad740c6ae5e0"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSuperWebSocket"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="20c62358-1b5b-4d75-8698-efa4cc34c9ac">
+      <profileInstance
+        Id="c6e89140-c5e0-40c6-855b-3f2efe0c20d6"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="ae78824e-fb5f-43a2-a031-c6b8c4e2a6e7"
+        name="WebSocketSession"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="a65d320a-1ea2-4b7a-96db-b44e65140a67"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2Fpackages%2FSuperWebSocketNETServer.0.8%2Flib%2Fnet45%2FSuperWebSocket.dll Namespace%3DSuperWebSocket Type%3DWebSocketSession"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="402c6a2c-20c2-4701-b558-cfc192138e2a"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a60dd58c-9f7f-4ed6-aa76-b55e10319c06">
+                <propertyInstance
+                  Id="2aa8a636-8490-4e35-8c19-75e8f77402d8"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c54d0fe3-f7a7-4663-be6e-a0e3505e67cb">
+                <propertyInstance
+                  Id="025d0985-cc08-42b6-9729-6bd6c3d4bde9"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="df16e74c-c1d0-40bd-874a-8c152abea8b9">
+                <propertyInstance
+                  Id="53c309f4-44c2-437c-952d-509c344777e0"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3c22d29f-040f-4a39-9f49-7f7c641002db">
+                <propertyInstance
+                  Id="c1e9088d-4627-4cb2-b0da-0a2f941ebce0"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="04d4fc04-2892-407b-b6cf-11276845faa8">
+                <propertyInstance
+                  Id="319204f7-3841-4720-92ef-7196ee0c1589"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f656261c-4307-4f09-8512-49b838d964be"
+        name="WebSocketServer"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="62e5e18e-2886-41d0-99e4-9921416667bc"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2Fpackages%2FSuperWebSocketNETServer.0.8%2Flib%2Fnet45%2FSuperWebSocket.dll Namespace%3DSuperWebSocket Type%3DWebSocketServer"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="04eec029-5009-4041-82c0-be7b4a05ff7e"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ffe3de52-6239-4b8e-8b9f-f61e920c592e">
+                <propertyInstance
+                  Id="442b6368-2891-4272-b0c1-4892b31f4a47"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d271438d-4cca-4ac0-a808-a693d41816fa">
+                <propertyInstance
+                  Id="044d91cc-d665-4c7d-87ee-64603c508845"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a676fa4b-191b-4981-a2c0-3ab50e785b10">
+                <propertyInstance
+                  Id="f14643c8-8764-4b7d-8840-21e6c1944d6f"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5fc0b459-6442-4eb7-ab31-220c127bc80c">
+                <propertyInstance
+                  Id="3ff1bcee-889a-4843-97b8-8987c4dda183"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="392b7707-2648-4344-acaa-1a7ca2752858">
+                <propertyInstance
+                  Id="c112f785-dff7-4fda-8ed6-80a18ca932b7"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

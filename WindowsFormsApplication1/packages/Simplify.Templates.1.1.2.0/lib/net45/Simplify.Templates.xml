@@ -1,0 +1,554 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Simplify.Templates</name>
+    </assembly>
+    <members>
+        <member name="T:Simplify.Xml.XmlExtensions">
+            <summary>
+            Provides extensions for System.Xml.Linq classes
+            </summary>
+        </member>
+        <member name="M:Simplify.Xml.XmlExtensions.OuterXml(System.Xml.Linq.XElement)">
+            <summary>
+            Gets the outer XML string of an XElement (inner XML and itself).
+            </summary>
+            <param name="element">The outer XML stringt.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Simplify.Xml.XmlExtensions.InnerXml(System.Xml.Linq.XElement)">
+            <summary>
+            Gets the inner XML string of an XElement.
+            </summary>
+            <param name="element">The inner XML stringt.</param>
+            <returns></returns>
+        </member>
+        <member name="T:Simplify.Xml.XmlSerializer">
+            <summary>
+            Objects XML serialization/deserialization extensions
+            </summary>
+        </member>
+        <member name="M:Simplify.Xml.XmlSerializer.Serialize``1(System.Collections.Generic.IList{``0})">
+            <summary>
+            Serializes the specified items list to a XML string.
+            </summary>
+            <typeparam name="T">Type of an item</typeparam>
+            <param name="items">The items list to serialize.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Simplify.Xml.XmlSerializer.ToXElement``1(``0)">
+            <summary>
+            Serialize object to XElement.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="obj">Object to serialize.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Simplify.Xml.XmlSerializer.FromXElement``1(System.Xml.Linq.XElement)">
+            <summary>
+            Deserialize XElement to object.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="xElement">The XElement to deserialize.</param>
+            <returns></returns>
+        </member>
+        <member name="T:Simplify.Templates.ModelSetter`1">
+            <summary>
+            Provides model setter to template, sets all objects properties to template
+            </summary>
+            <typeparam name="T">Model type</typeparam>
+        </member>
+        <member name="T:Simplify.Templates.ModelSetterBase">
+            <summary>
+            Provides ModelSetter base class
+            </summary>
+        </member>
+        <member name="F:Simplify.Templates.ModelSetterBase.ModelPrefix">
+            <summary>
+            The model prefix
+            </summary>
+        </member>
+        <member name="M:Simplify.Templates.ModelSetterBase.#ctor(Simplify.Templates.ITemplate)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Simplify.Templates.ModelSetterBase"/> class.
+            </summary>
+            <param name="template">The template.</param>
+        </member>
+        <member name="P:Simplify.Templates.ModelSetterBase.Template">
+            <summary>
+            Gets the template.
+            </summary>
+            <value>
+            The template.
+            </value>
+        </member>
+        <member name="T:Simplify.Templates.IModelSetter`1">
+            <summary>
+            Represent model setter to template, sets all objects properties to template
+            </summary>
+            <typeparam name="T">Model type</typeparam>
+        </member>
+        <member name="M:Simplify.Templates.IModelSetter`1.With``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.Func{``0,System.Object})">
+            <summary>
+            Customizes specified property data set to template, for example, you can set custom expression to convert DateTime values
+            </summary>
+            <typeparam name="TData">The type of the data.</typeparam>
+            <param name="memberExpression">The member expression.</param>
+            <param name="dataExpression">The data expression.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Simplify.Templates.IModelSetter`1.Set">
+            <summary>
+            Sets the specified object (model) properties into template (replace variables names like Model.MyPropertyName with respective object (model) properties values).
+            </summary>
+        </member>
+        <member name="M:Simplify.Templates.ModelSetter`1.#ctor(Simplify.Templates.ITemplate,`0)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Simplify.Templates.ModelSetter`1"/> class.
+            </summary>
+            <param name="template">The template.</param>
+            <param name="model">The model.</param>
+        </member>
+        <member name="M:Simplify.Templates.ModelSetter`1.With``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.Func{``0,System.Object})">
+            <summary>
+            Customizes specified property data set to template, for example, you can set custom expression to convert DateTime values
+            </summary>
+            <typeparam name="TData">The type of the data.</typeparam>
+            <param name="memberExpression">The member expression.</param>
+            <param name="dataExpression">The data expression.</param>
+            <returns></returns>
+            <exception cref="T:System.ArgumentException">memberExpression type is not a MemberExpression</exception>
+        </member>
+        <member name="M:Simplify.Templates.ModelSetter`1.Set">
+            <summary>
+            Sets the specified object (model) properties into template (replace variables names like Model.MyPropertyName with respective model properties values).
+            </summary>
+        </member>
+        <member name="T:Simplify.Templates.IHideObjectMembers">
+            <summary>
+            Helper interface used to hide the base <see cref="T:System.Object" />
+            members from the fluent API to make it much cleaner
+            in Visual Studio intellisense.
+            </summary>
+        </member>
+        <member name="M:Simplify.Templates.IHideObjectMembers.GetType">
+            <summary>
+            Gets the type.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Simplify.Templates.IHideObjectMembers.GetHashCode">
+            <summary>
+            Returns a hash code for this instance.
+            </summary>
+            <returns>
+            A hash code for this instance, suitable for use in hashing algorithms and data structures like a hash table. 
+            </returns>
+        </member>
+        <member name="M:Simplify.Templates.IHideObjectMembers.ToString">
+            <summary>
+            Returns a <see cref="T:System.String"/> that represents this instance.
+            </summary>
+            <returns>
+            A <see cref="T:System.String"/> that represents this instance.
+            </returns>
+        </member>
+        <member name="M:Simplify.Templates.IHideObjectMembers.Equals(System.Object)">
+            <summary>
+            Determines whether the specified <see cref="T:System.Object"/>, is equal to this instance.
+            </summary>
+            <param name="obj">The <see cref="T:System.Object"/> to compare with this instance.</param>
+            <returns>
+              <c>true</c> if the specified <see cref="T:System.Object"/> is equal to this instance; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="T:Simplify.Templates.ITemplate">
+            <summary>
+            Text templates interface
+            </summary>
+        </member>
+        <member name="M:Simplify.Templates.ITemplate.Set(System.String,System.String)">
+            <summary>
+            Set template variable value (all occurrences will be replaced)
+            </summary>
+            <param name="variableName">Variable name</param>
+            <param name="value">Value to set</param>
+        </member>
+        <member name="M:Simplify.Templates.ITemplate.Set(System.String,System.Int32)">
+            <summary>
+            Set template variable value (all occurrences will be replaced)
+            </summary>
+            <param name="variableName">Variable name</param>
+            <param name="value">Value to set</param>
+        </member>
+        <member name="M:Simplify.Templates.ITemplate.Set(System.String,System.Object)">
+            <summary>
+            Set template variable value (all occurrences will be replaced)
+            </summary>
+            <param name="variableName">Variable name</param>
+            <param name="value">Value to set</param>
+        </member>
+        <member name="M:Simplify.Templates.ITemplate.Set(System.String,System.Double)">
+            <summary>
+            Set template variable value (all occurrences will be replaced)
+            </summary>
+            <param name="variableName">Variable name</param>
+            <param name="value">Value to set</param>
+        </member>
+        <member name="M:Simplify.Templates.ITemplate.Set(System.String,System.Decimal)">
+            <summary>
+            Set template variable value (all occurrences will be replaced)
+            </summary>
+            <param name="variableName">Variable name</param>
+            <param name="value">Value to set</param>
+        </member>
+        <member name="M:Simplify.Templates.ITemplate.Set(System.String,System.Int64)">
+            <summary>
+            Set template variable value (all occurrences will be replaced)
+            </summary>
+            <param name="variableName">Variable name</param>
+            <param name="value">Value to set</param>
+        </member>
+        <member name="M:Simplify.Templates.ITemplate.Set(System.String,Simplify.Templates.ITemplate)">
+            <summary>
+            Set template variable value with text from template (all occurrences will be replaced)
+            </summary>
+            <param name="variableName">Variable name</param>
+            <param name="template">Value to set</param>
+        </member>
+        <member name="M:Simplify.Templates.ITemplate.Add(System.String,System.String)">
+            <summary>
+            Add value to set template variable value (all occurrences will be replaced on Get method execute) allows setting multiple values to template variable
+            </summary>
+            <param name="variableName">Variable name</param>
+            <param name="value">Value to set</param>
+        </member>
+        <member name="M:Simplify.Templates.ITemplate.Add(System.String,System.Int32)">
+            <summary>
+            Add value to set template variable value (all occurrences will be replaced on Get method execute) allows setting multiple values to template variable
+            </summary>
+            <param name="variableName">Variable name</param>
+            <param name="value">Value to set</param>
+        </member>
+        <member name="M:Simplify.Templates.ITemplate.Add(System.String,System.Object)">
+            <summary>
+            Add value to set template variable value (all occurrences will be replaced on Get method execute) allows setting multiple values to template variable
+            </summary>
+            <param name="variableName">Variable name</param>
+            <param name="value">Value to set</param>
+        </member>
+        <member name="M:Simplify.Templates.ITemplate.Add(System.String,System.Double)">
+            <summary>
+            Add value to set template variable value (all occurrences will be replaced on Get method execute) allows setting multiple values to template variable
+            </summary>
+            <param name="variableName">Variable name</param>
+            <param name="value">Value to set</param>
+        </member>
+        <member name="M:Simplify.Templates.ITemplate.Add(System.String,System.Decimal)">
+            <summary>
+            Add value to set template variable value (all occurrences will be replaced on Get method execute) allows setting multiple values to template variable
+            </summary>
+            <param name="variableName">Variable name</param>
+            <param name="value">Value to set</param>
+        </member>
+        <member name="M:Simplify.Templates.ITemplate.Add(System.String,System.Int64)">
+            <summary>
+            Add value to set template variable value (all occurrences will be replaced on Get method execute) allows setting multiple values to template variable
+            </summary>
+            <param name="variableName">Variable name</param>
+            <param name="value">Value to set</param>
+        </member>
+        <member name="M:Simplify.Templates.ITemplate.Add(System.String,Simplify.Templates.ITemplate)">
+            <summary>
+            Add value to set template variable value with text from template (all occurrences will be replaced on Get method execute) allows setting multiple values to template variable
+            </summary>
+            <param name="variableName">Variable name</param>
+            <param name="template">Value to set</param>
+        </member>
+        <member name="M:Simplify.Templates.ITemplate.Get">
+            <summary>
+            Get text of the template
+            </summary>
+        </member>
+        <member name="M:Simplify.Templates.ITemplate.RollBack">
+            <summary>
+            Return loaded template to it's initial state
+            </summary>
+        </member>
+        <member name="M:Simplify.Templates.ITemplate.GetAndRoll">
+            <summary>
+            Gets the text of the template and returns loaded template to it's initial state
+            </summary>
+            <returns>Text of the template</returns>
+        </member>
+        <member name="P:Simplify.Templates.ITemplate.FilePath">
+            <summary>
+            Gets the file path of the template file.
+            </summary>
+            <value>
+            The file path of the template file.
+            </value>
+        </member>
+        <member name="P:Simplify.Templates.ITemplate.Language">
+            <summary>
+            Template current language
+            </summary>
+        </member>
+        <member name="P:Simplify.Templates.ITemplate.DefaultLanguage">
+            <summary>
+            Template default language
+            </summary>
+        </member>
+        <member name="T:Simplify.Templates.TemplateModelExtensions">
+            <summary>
+            Template model extensions
+            </summary>
+        </member>
+        <member name="M:Simplify.Templates.TemplateModelExtensions.Model``1(Simplify.Templates.ITemplate,``0)">
+            <summary>
+            Selects the object (model) to get a properties values from and set them to template.
+            </summary>
+            <typeparam name="T">The model type</typeparam>
+            <param name="template">The template.</param>
+            <param name="model">The model.</param>
+            <returns></returns>
+        </member>
+        <member name="T:Simplify.Templates.Template">
+            <summary>
+            Text templates class
+            </summary>
+        </member>
+        <member name="M:Simplify.Templates.Template.#ctor(System.String,System.Boolean)">
+            <summary>
+            Initialize template class from a string
+            </summary>
+            <param name="text">The template text.</param>
+            <param name="fixLineEndingsHtml">If set to <c>true</c> Replace all caret return characters by html <![CDATA[<BR />]]> tag.</param>
+        </member>
+        <member name="M:Simplify.Templates.Template.#ctor(System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            Initialize template class with specified template from a file
+            </summary>
+            <param name="filePath">Template file path</param>
+            <param name="language">Template language (Thread.CurrentThread language will be used by default)</param>
+            <param name="defaultLanguage">Template default language</param>
+            <param name="fixLineEndingsHtml">If set to <c>true</c> Replace all caret return characters by html <![CDATA[<BR />]]> tag.</param>
+            <exception cref="T:System.ArgumentNullException">filePath</exception>
+            <exception cref="T:Simplify.Templates.TemplateException">Template: file not found:  + filePath</exception>
+        </member>
+        <member name="M:Simplify.Templates.Template.#ctor(System.Reflection.Assembly,System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            Load template from an assembly resources
+            </summary>
+            <param name="workingAssembly">Assembly to load from</param>
+            <param name="filePath">Template file path</param>
+            <param name="language">Template language (Thread.CurrentThread language will be used by default)</param>
+            <param name="defaultLanguage">Template default language</param>
+            <param name="fixLineEndingsHtml">If set to <c>true</c> Replace all caret return characters by html <![CDATA[<BR />]]> tag.</param>
+            <exception cref="T:System.ArgumentNullException">
+            workingAssembly
+            or
+            filePath
+            </exception>
+            <exception cref="T:Simplify.Templates.TemplateException"></exception>
+        </member>
+        <member name="M:Simplify.Templates.Template.FromString(System.String,System.Boolean)">
+            <summary>
+            Initialize template class from a string
+            </summary>
+            <param name="text">The template text.</param>
+            <param name="fixLineEndingsHtml">If set to <c>true</c> Replace all caret return characters by html <![CDATA[<BR />]]> tag.</param>
+        </member>
+        <member name="M:Simplify.Templates.Template.Load(System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            Load template from a file using calling assembly path prefix in filePath
+            </summary>
+            <param name="filePath">Template file path</param>
+            <param name="language">Template language (Thread.CurrentThread language will be used by default)</param>
+            <param name="defaultLanguage">Template default language</param>
+            <param name="fixLineEndingsHtml">If set to <c>true</c> Replace all caret return characters by html <![CDATA[<BR />]]> tag.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Simplify.Templates.Template.LoadAsync(System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            Load template asynchronously from a file using calling assembly path prefix in filePath
+            </summary>
+            <param name="filePath">Template file path</param>
+            <param name="language">Template language (Thread.CurrentThread language will be used by default)</param>
+            <param name="defaultLanguage">Template default language</param>
+            <param name="fixLineEndingsHtml">If set to <c>true</c> Replace all caret return characters by html <![CDATA[<BR />]]> tag.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Simplify.Templates.Template.FromManifest(System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            Load template from an calling assembly resources
+            </summary>
+            <param name="filePath">Template file path</param>
+            <param name="language">Template language (Thread.CurrentThread language will be used by default)</param>
+            <param name="defaultLanguage">Template default language</param>
+            <param name="fixLineEndingsHtml">If set to <c>true</c> Replace all caret return characters by html <![CDATA[<BR />]]> tag.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Simplify.Templates.Template.FromManifestAsync(System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            Load template asynchronously from an calling assembly resources
+            </summary>
+            <param name="filePath">Template file path</param>
+            <param name="language">Template language (Thread.CurrentThread language will be used by default)</param>
+            <param name="defaultLanguage">Template default language</param>
+            <param name="fixLineEndingsHtml">If set to <c>true</c> Replace all caret return characters by html <![CDATA[<BR />]]> tag.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Simplify.Templates.Template.Set(System.String,System.String)">
+            <summary>
+            Set template variable value (all occurrences will be replaced)
+            </summary>
+            <param name="variableName">Variable name</param>
+            <param name="value">Value to set</param>
+        </member>
+        <member name="M:Simplify.Templates.Template.Set(System.String,System.Int32)">
+            <summary>
+            Set template variable value (all occurrences will be replaced)
+            </summary>
+            <param name="variableName">Variable name</param>
+            <param name="value">Value to set</param>
+        </member>
+        <member name="M:Simplify.Templates.Template.Set(System.String,System.Object)">
+            <summary>
+            Set template variable value (all occurrences will be replaced)
+            </summary>
+            <param name="variableName">Variable name</param>
+            <param name="value">Value to set</param>
+        </member>
+        <member name="M:Simplify.Templates.Template.Set(System.String,System.Double)">
+            <summary>
+            Set template variable value (all occurrences will be replaced)
+            </summary>
+            <param name="variableName">Variable name</param>
+            <param name="value">Value to set</param>
+        </member>
+        <member name="M:Simplify.Templates.Template.Set(System.String,System.Decimal)">
+            <summary>
+            Set template variable value (all occurrences will be replaced)
+            </summary>
+            <param name="variableName">Variable name</param>
+            <param name="value">Value to set</param>
+        </member>
+        <member name="M:Simplify.Templates.Template.Set(System.String,System.Int64)">
+            <summary>
+            Set template variable value (all occurrences will be replaced)
+            </summary>
+            <param name="variableName">Variable name</param>
+            <param name="value">Value to set</param>
+        </member>
+        <member name="M:Simplify.Templates.Template.Set(System.String,Simplify.Templates.ITemplate)">
+            <summary>
+            Set template variable value with text from template (all occurrences will be replaced)
+            </summary>
+            <param name="variableName">Variable name</param>
+            <param name="template">Value to set</param>
+        </member>
+        <member name="M:Simplify.Templates.Template.Add(System.String,System.String)">
+            <summary>
+            Add value to set template variable value (all occurrences will be replaced on Get method execute) allows setting multiple values to template variable
+            </summary>
+            <param name="variableName">Variable name</param>
+            <param name="value">Value to set</param>
+        </member>
+        <member name="M:Simplify.Templates.Template.Add(System.String,System.Int32)">
+            <summary>
+            Add value to set template variable value (all occurrences will be replaced on Get method execute) allows setting multiple values to template variable
+            </summary>
+            <param name="variableName">Variable name</param>
+            <param name="value">Value to set</param>
+        </member>
+        <member name="M:Simplify.Templates.Template.Add(System.String,System.Object)">
+            <summary>
+            Add value to set template variable value (all occurrences will be replaced on Get method execute) allows setting multiple values to template variable
+            </summary>
+            <param name="variableName">Variable name</param>
+            <param name="value">Value to set</param>
+        </member>
+        <member name="M:Simplify.Templates.Template.Add(System.String,System.Double)">
+            <summary>
+            Add value to set template variable value (all occurrences will be replaced on Get method execute) allows setting multiple values to template variable
+            </summary>
+            <param name="variableName">Variable name</param>
+            <param name="value">Value to set</param>
+        </member>
+        <member name="M:Simplify.Templates.Template.Add(System.String,System.Decimal)">
+            <summary>
+            Add value to set template variable value (all occurrences will be replaced on Get method execute) allows setting multiple values to template variable
+            </summary>
+            <param name="variableName">Variable name</param>
+            <param name="value">Value to set</param>
+        </member>
+        <member name="M:Simplify.Templates.Template.Add(System.String,System.Int64)">
+            <summary>
+            Add value to set template variable value (all occurrences will be replaced on Get method execute) allows setting multiple values to template variable
+            </summary>
+            <param name="variableName">Variable name</param>
+            <param name="value">Value to set</param>
+        </member>
+        <member name="M:Simplify.Templates.Template.Add(System.String,Simplify.Templates.ITemplate)">
+            <summary>
+            Add value to set template variable value with text from template (all occurrences will be replaced on Get method execute) allows setting multiple values to template variable
+            </summary>
+            <param name="variableName">Variable name</param>
+            <param name="template">Value to set</param>
+        </member>
+        <member name="M:Simplify.Templates.Template.Get">
+            <summary>
+            Get text of the template
+            </summary>
+        </member>
+        <member name="M:Simplify.Templates.Template.RollBack">
+            <summary>
+            Return loaded template to it's initial state
+            </summary>
+        </member>
+        <member name="M:Simplify.Templates.Template.GetAndRoll">
+            <summary>
+            Gets the text of the template and returns loaded template to it's initial state
+            </summary>
+            <returns>Text of the template</returns>
+        </member>
+        <member name="P:Simplify.Templates.Template.FileSystem">
+            <summary>
+            Gets or sets the file system for Template IO operations.
+            </summary>
+            <value>
+            The file system for Template IO operations.
+            </value>
+        </member>
+        <member name="P:Simplify.Templates.Template.FilePath">
+            <summary>
+            Gets the file path of the template file.
+            </summary>
+            <value>
+            The file path of the template file.
+            </value>
+        </member>
+        <member name="P:Simplify.Templates.Template.Language">
+            <summary>
+            Template current language
+            </summary>
+        </member>
+        <member name="P:Simplify.Templates.Template.DefaultLanguage">
+            <summary>
+            Template default language
+            </summary>
+        </member>
+        <member name="T:Simplify.Templates.TemplateException">
+            <summary>
+            The exception class using for Template exceptions
+            </summary>
+        </member>
+        <member name="M:Simplify.Templates.TemplateException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Simplify.Templates.TemplateException"/> class.
+            </summary>
+            <param name="message">The message that describes the error.</param>
+        </member>
+    </members>
+</doc>

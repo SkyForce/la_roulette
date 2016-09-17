@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="19176254-e2da-4894-b07f-3c51d99e7914"
+  name="SocketBase"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="0b61c4bd-814a-4b28-b6b7-6dda6fd0eb3f"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSuperSocket.SocketBase"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <enumeration
+        Id="0b2aa894-efd8-4cc2-ae56-d277b3a016ab"
+        name="CloseReason"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="780a2e3d-a3d8-4bf2-981f-9ce221573f74"
+            handle="viewcode://./CodeSchema_Enum?Assembly%3Dfile:%2F%2F%2FD:%2Funiver%2Fspsu-mm-programming-sartasov%2FSpring%2F242%2Fla_roulette%2FWindowsFormsApplication1%2Fpackages%2FSuperWebSocketNETServer.0.8%2Flib%2Fnet45%2FSuperSocket.SocketBase.dll Namespace%3DSuperSocket.SocketBase Type%3DCloseReason"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="749d58dc-7498-45ba-8ed4-4d70c0c87f54"
+            name="enum"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5a0b8847-d1b6-4b77-bfed-633ad28daecd">
+                <propertyInstance
+                  Id="26442a10-5790-4285-a2a4-733480dc6530"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="176726df-94fb-4d54-aaea-4e58d0de8026">
+                <propertyInstance
+                  Id="cbf264ea-cfde-471e-a1c7-c4686188a6f4"
+                  name="BaseType"
+                  value="int" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c1157524-bfb7-4a03-be60-ab90c91c8f4b">
+                <propertyInstance
+                  Id="d61d062f-89cf-4462-b5d9-33609fb7a4e2"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </enumeration>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
